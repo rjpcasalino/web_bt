@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="robots" content="all">
+  <style>
+ body {
+    max-width: 500px;
+    margin: 15px;
+    word-wrap: break-word;
+    font-family: 'Lusitana', serif;
+ }
+
+ /* horizontal rule 
+  */
+ hr {
+     overflow: visible; /* For IE */
+     padding: 0;
+     border: none;
+     border-top: medium double #333;
+     color: #333;
+     text-align: center;
+ }
+ hr:after {
+     content: "§";
+     display: inline-block;
+     position: relative;
+     top: -0.7em;
+     font-size: 1.5em;
+     padding: 0 0.25em;
+     background: white;
+ }
+ </style>
+ </head>
+
+  <body>
+  <!-- <img src="https://www.boringtranquility.io/assets/imgs/food_basket.png"/> -->
+	{{content|safe}}
+  </body>
+</html>
