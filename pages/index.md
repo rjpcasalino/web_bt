@@ -3,4 +3,43 @@ title: Boring Tranquility
 layout: basic
 ---
 
-This is what an index.html looks like
+# Boring Index
+
+```
+Light the first light of evening, as in a room
+In which we rest and, for small reason, think
+The world imagined is the ultimate good.
+
+This is, therefore, the intensest rendezvous.
+It is in that thought that we collect ourselves,
+Out of all the indifferences, into one thing:
+
+Within a single thing, a single shawl
+Wrapped tightly round us, since we are poor, a warmth,
+A light, a power, the miraculous influence.
+
+Here, now, we forget each other and ourselves.
+We feel the obscurity of an order, a whole,
+A knowledge, that which arranged the rendezvous,
+
+Within its vital boundary, in the mind.
+We say God and the imagination are one…
+How high that highest candle lights the dark.
+
+Out of this same light, out of the central mind,
+We make a dwelling in the evening air,
+In which being there together is enough. -
+
+Wallace Stevens
+```
+
+
+```
+I knew that one day I would become one that ends up playing logic games for money on this network. - 
+
+Bernard Truman
+```
+
+[blog](https://blog.boringtranquility.io) - [about](/about.html)
+
+copyright 2019 Ryan Casalino | Seattle, WA USA
