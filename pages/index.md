@@ -11,10 +11,9 @@ layout: basic
 >> <span>&mdash;</span>Robert A. Heinlein
 
 ## Hi,
-My name is Ryan Casalino. This is my small part of the internet. There are many like it, of course, but this one is mine. 
+My name is Ryan Casalino. I am a programmer. This is my small part of the internet. There are many like it, of course, but this one is mine. 
 
 No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which is a modified version created by the Nevrax Design Team.
-
 
 > [Hire me!](mailto:jobs@boringtranquility.io)
 
@@ -22,14 +21,14 @@ There are things you should now beforehand...
 
 I think it's amazing what the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) can do! 
 
-### Things I do / Thing I've done
+### Stuff I do / Stuff I've done
 - I've written web applications using [Ruby on Rails](https://rubyonrails.org/), and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework). 
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs using JavaScript(node), Go, Python, and Ruby.
 - I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, et al.
 - I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GPC.
 - I've worked at two startups and two mid-sized companies. 
 
-### Tools I use 
+### Tools I use (and like)
 __I enjoy Open Source software as well as Free Software__
 
 - I love [vim](https://www.vim.org/) and I learn something new about it almost every month.
@@ -38,6 +37,12 @@ __I enjoy Open Source software as well as Free Software__
 - I've self-hosted this and other websites on those credit card sized servers using nginx and apache.
 - I've played around with Docker both on the job and at home. Wonderful fun it was.
 - I use GNU Screen and i3
+- I miss Mac OS X
+
+### Tools I've used and don't like
+- Windows
+- macOS
+
 
 Here's the core of it and I'll quit yapping:
 
@@ -45,12 +50,12 @@ Here's the core of it and I'll quit yapping:
 
  ### Skills
 
-* [Python]() ~ 5 years
-* [Ruby]() ~ 4 years
-* [JavaScript]() ~ 5 years
-* [Go]() ~ 5 years
-* [HTML/CSS]() ~ 10 years
-* [bash]() / sh ~ 4 years
+* [Python](https://www.python.org/) ~ 5 years
+* [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
+* [JavaScript](https://www.ecma-international.org/) ~ 5 years
+* [Go](https://golang.org/) ~ 5 years
+* [HTML/CSS](https://www.w3.org/) ~ 10 years
+* [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
 * [GNU/Linux](https://www.gnu.org/) ~ 5 years
 
 ### Links
