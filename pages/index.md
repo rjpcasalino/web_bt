@@ -3,43 +3,59 @@ title: Boring Tranquility
 layout: basic
 ---
 
-# Boring Index
+> When I take up a newspaper and read it, I fancy I see ghosts creeping between the lines. There must be ghosts all over the world. They must be as countless as the grains of the sands, it seems to me.
+>> <span>&mdash;</span>Henrik Ibsen
 
-```
-Light the first light of evening, as in a room
-In which we rest and, for small reason, think
-The world imagined is the ultimate good.
+> A generation which ignores history has no past — and no future. 
+>
+>> <span>&mdash;</span>Robert A. Heinlein
 
-This is, therefore, the intensest rendezvous.
-It is in that thought that we collect ourselves,
-Out of all the indifferences, into one thing:
+## Hi,
+My name is Ryan Casalino. This is my small part of the internet. There are many like it, of course, but this one is mine. 
 
-Within a single thing, a single shawl
-Wrapped tightly round us, since we are poor, a warmth,
-A light, a power, the miraculous influence.
-
-Here, now, we forget each other and ourselves.
-We feel the obscurity of an order, a whole,
-A knowledge, that which arranged the rendezvous,
-
-Within its vital boundary, in the mind.
-We say God and the imagination are one…
-How high that highest candle lights the dark.
-
-Out of this same light, out of the central mind,
-We make a dwelling in the evening air,
-In which being there together is enough. -
-
-Wallace Stevens
-```
+No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which is a modified version created by the Nevrax Design Team.
 
 
-```
-I knew that one day I would become one that ends up playing logic games for money on this network. - 
+> [Hire me!](mailto:jobs@boringtranquility.io)
 
-Bernard Truman
-```
+There are things you should now beforehand...
 
-[blog](https://blog.boringtranquility.io) - [about](/about.html)
+I think it's amazing what the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) can do! 
 
-copyright 2019 Ryan Casalino | Seattle, WA USA
+### Things I do / Thing I've done
+- I've written web applications using [Ruby on Rails](https://rubyonrails.org/), and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework). 
+- I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs using JavaScript(node), Go, Python, and Ruby.
+- I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, et al.
+- I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GPC.
+- I've worked at two startups and two mid-sized companies. 
+
+### Tools I use 
+__I enjoy Open Source software as well as Free Software__
+
+- I love [vim](https://www.vim.org/) and I learn something new about it almost every month.
+- I'm a proponent of [GNU/Linux](https://www.gnu.org/) but I also use [FreeBSD](https://www.freebsd.org/) as a desktop.
+- I have utilized numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
+- I've self-hosted this and other websites on those credit card sized servers using nginx and apache.
+- I've played around with Docker both on the job and at home. Wonderful fun it was.
+- I use GNU Screen and i3
+
+Here's the core of it and I'll quit yapping:
+
+![https://www.mariowiki.com/Penguin](/static/super_mario_64_panguin.gif)
+
+ ### Skills
+
+* [Python]() ~ 5 years
+* [Ruby]() ~ 4 years
+* [JavaScript]() ~ 5 years
+* [Go]() ~ 5 years
+* [HTML/CSS]() ~ 10 years
+* [bash]() / sh ~ 4 years
+* [GNU/Linux](https://www.gnu.org/) ~ 5 years
+
+### Links
+
+- [GitHub](https://github.com/rjpcasalino)
+- [sourcehut](https://git.sr.ht/~rjpcasalino/)
+- [my blog](https://blog.boringtranquility.io)
+
