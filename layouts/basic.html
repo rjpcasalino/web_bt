@@ -37,7 +37,7 @@ a:visited {
 }
 
 #meditate {
-transform: rotate(-45deg) translateY(5px);
+transform: rotate(-45deg) translateY(5px) translateX(10px);
 width: 200px;
 height: auto;
 padding: 1em;
@@ -46,8 +46,8 @@ padding: 1em;
           animation: 4s linear 0s infinite alternate movegnu;
 }
 
-@-webkit-keyframes movegnu { from { transform: rotate(-45deg) translateY(5px); } to { transform: rotate(-45deg) translateY(-5px); }  }
-        @keyframes movegnu { from { transform: rotate(-45deg) translateY(5px); } to { transform: rotate(-45deg) translateY(-5px); }  }
+@-webkit-keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(10px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
+        @keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(10px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
  </style>
  </head>
 

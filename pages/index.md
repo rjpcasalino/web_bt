@@ -3,23 +3,27 @@ title: Boring Tranquility
 layout: basic
 ---
 
-> When I take up a newspaper and read it, I fancy I see ghosts creeping between the lines. There must be ghosts all over the world. They must be as countless as the grains of the sands, it seems to me.
->> <span>&mdash;</span>Henrik Ibsen
+> The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.
+>
+>> <span>&mdash;</span>Fred Brooks
 
 > A generation which ignores history has no past — and no future. 
 >
 >> <span>&mdash;</span>Robert A. Heinlein
 
+> When I take up a newspaper and read it, I fancy I see ghosts creeping between the lines. There must be ghosts all over the world. They must be as countless as the grains of the sands, it seems to me.
+>> <span>&mdash;</span>Henrik Ibsen
+
 ## Hi,
 My name is Ryan Casalino. I am a programmer. This is my small part of the internet. There are many like it, of course, but this one is mine. 
 
-No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which is a modified version created by the Nevrax Design Team.
+No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which itself is a modified version created by the Nevrax Design Team.
 
 > [Hire me!](mailto:jobs@boringtranquility.io)
 
 There are things you should now beforehand...
 
-I think it's amazing what the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) can do! 
+I think it's amazing what the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) can do! I enjoy all aspects of books be they technical, derivative, trivial or otherwise. I really enjoy O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/wiki/O%27Reilly_Media#/media/File:ACM_OReilly-Rainbow-large-flash.jpg). I place them, as if trophies, throughout my apartment. Much to my wife's chagrin, I am sure. 
 
 ### Stuff I do / Stuff I've done
 - I've written web applications using [Ruby on Rails](https://rubyonrails.org/), and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework). 
@@ -39,9 +43,12 @@ __I enjoy Open Source software as well as Free Software__
 - I use GNU Screen and i3
 - I miss Mac OS X
 
-### Tools I've used and don't like
+### Tools I use and don't like
 - Windows
+> Word and Excel and PowerPoint and other Microsoft programs have intimate — one might say promiscuous — knowledge of each others' internals. In Unix, one tries to design programs to operate not specifically with each other, but with programs as yet unthought of.
+>> Doug McIlroy
 - macOS
+> because of [System Integrity Protection](https://support.apple.com/en-us/HT204899)
 
 
 Here's the core of it and I'll quit yapping:
