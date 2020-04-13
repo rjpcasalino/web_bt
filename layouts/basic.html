@@ -59,5 +59,41 @@ padding: 1em;
 	  <div class="wrapper">
 	  	{{content|safe}}
 	  </div>
+	  <audio controls style="visibility:hidden;">
+  		<source src="https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg" type="audio/ogg" autoplay>
+	</audio>
+
+<script>
+// see here: https://davidwalsh.name/javascript-debounce-function
+function debounce(func, wait, immediate) {
+ var timeout;
+ return function() {
+  var context = this, args = arguments;
+  var later = function() {
+   timeout = null;
+   if (!immediate) func.apply(context, args);
+  };
+  var callNow = immediate && !timeout;
+  clearTimeout(timeout);
+  timeout = setTimeout(later, wait);
+  if (callNow) func.apply(context, args);
+ };
+};
+
+const el = document.getElementById('penguin');
+window.addEventListener('scroll', debounce(function(e) {
+	if (window.scrollY > el.offsetTop) {
+		var a = document.querySelector('audio');
+		a.play();
+	}
+}, 200));
+
+el.ontimeupdate = debounce(function(e) {
+	let ct = Math.round(el.currentTime);
+	if (ct === 3) {
+		console.log('do stuff');
+	}
+}, 250);
+	</script>
   </body>
 </html>

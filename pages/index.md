@@ -46,7 +46,7 @@ __I enjoy Open Source software as well as Free Software__
 
 Here's the core of it and I'll quit yapping:
 
-![https://www.mariowiki.com/Penguin](/static/super_mario_64_panguin.gif)
+<img id="penguin" alt="https://www.mariowiki.com/Penguin" src="/static/super_mario_64_panguin.gif">
 
  ### Skills
 
