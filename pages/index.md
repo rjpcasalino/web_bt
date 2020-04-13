@@ -31,17 +31,15 @@ I enjoy starting sentences with the word "I".
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs using JavaScript(node), Go, Python, and Ruby.
 - I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, et al.
 - I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GPC.
-- I've worked at two startups and two mid-sized companies. 
+- Have worked at two startups and two mid-sized companies. 
 
 ### Tools I use (and like)
-__I enjoy Open Source software as well as Free Software__
 
-- I love [vim](https://www.vim.org/) and I learn something new about it almost every month.
-- I'm a proponent of [GNU/Linux](https://www.gnu.org/) but I also use [FreeBSD](https://www.freebsd.org/) as a desktop.
-- I have utilized numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
-- I self-hoste this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
-- I've played around with Docker both on the job and at home. Wonderful fun it was.
-- I use NixOS, xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/)
+- [vim](https://www.vim.org/) - I learn something new about it almost every month.
+- [GNU/Linux](https://www.gnu.org/) - my daily drivers are NixOS, Debian, and [FreeBSD](https://www.freebsd.org/).
+- Numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
+- I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
+- My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/)
 - I really really really miss Mac OS X!
 
 ### Tools I use and don't like
