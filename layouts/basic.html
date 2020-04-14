@@ -15,7 +15,7 @@ body {
         margin: 0 auto;
 }
 li {
-	list-style: disclosure-closed;
+	list-style: none;
 	line-height: 1.5;
 }
 
@@ -42,7 +42,7 @@ li {
      justify-content: space-evenly;
 }
 nav li {
-     list-style: disclosure-open;
+     list-style: square;
 }
 
 a:visited {
@@ -50,29 +50,31 @@ a:visited {
 }
 
 #meditate {
-transform: rotate(-45deg) translateY(5px) translateX(10px);
+display: flex;
+margin: 0 auto;
+transform: rotate(-45deg) translateY(5px) translateX(25px);
 width: 200px;
 height: auto;
 padding: 1em;
 
-  -webkit-animation: 4s linear 0s infinite alternate movegnu;
-          animation: 4s linear 0s infinite alternate movegnu;
+  -webkit-animation: 4s ease-in 0s infinite alternate movegnu;
+          animation: 4s ease-in 0s infinite alternate movegnu;
 }
 
-@-webkit-keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(10px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
-        @keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(10px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
+@-webkit-keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(25px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
+        @keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(25px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
  </style>
  </head>
 
   <body>
-	  <code><h1><span>&Tilde;</span>The Home Page of Ryan Casalino</h1></code>
+	  <code><h1><span>&Tilde;</span>/home/rjpcasalino</h1></code>
 	  <br>
 	  <img id="meditate" src="static/meditate-papolivre-small.png" alt="GNU meditate">
 	  <nav class="nav">
 		  <ul>
-			  <li>~/shots</li>
-			  <li>~/.configs</li>
-			  <li>~/reading</li>
+			  <li><a href="https://github.com/rjpcasalino">GitHub</a></li>
+			  <li><a href="https://git.sr.ht/~rjpcasalino/">sourcehut</a></li>
+			  <li><a href="https://blog.boringtranquility.io/">boring blog</a></li>
 		  </ul>
 	  </nav>
 	  <hr>

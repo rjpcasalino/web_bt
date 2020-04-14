@@ -14,10 +14,8 @@ layout: basic
 > When I take up a newspaper and read it, I fancy I see ghosts creeping between the lines. There must be ghosts all over the world. They must be as countless as the grains of the sands, it seems to me.
 >> <span>&mdash;</span>Henrik Ibsen
 
-## Hi, My name is Ryan Casalino. 
-I am a programmer. This is my small part of the internet. There are many like it, of course, but this one is mine. 
-
-No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which itself is a modified version created by the Nevrax Design Team.
+### Hi, I'm Ryan Casalino. 
+I am a programmer. This is my small part of the internet. There are many like it, of course, but this one is mine. I like simplicity over complexity. I believe anyone with half a brain and a willingness to learn can become a computer programmer, a keyboard cowboy, a stream samurai, etc, etc and so on in that fashion.
 
 > ## [Hire me!](mailto:jobs@boringtranquility.io)
 
@@ -99,9 +97,6 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 - C
 - Distributed systems
 - Rust
-
-#### Links
-- [GitHub](https://github.com/rjpcasalino)
-- [sourcehut](https://git.sr.ht/~rjpcasalino/)
-- [my blog](https://blog.boringtranquility.io)
-
+<footer>
+<small>The Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which itself is a modified version created by the Nevrax Design Team.</small>
+</footer>
