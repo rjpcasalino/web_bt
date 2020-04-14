@@ -12,7 +12,6 @@ body {
         overflow: auto;
         line-height: 1;
         max-width: 1200px;
-        margin: 0 auto;
 }
 li {
 	list-style: none;
@@ -52,7 +51,7 @@ a:visited {
 #meditate {
 display: flex;
 margin: 0 auto;
-transform: rotate(-45deg) translateY(5px) translateX(25px);
+transform: translateY(10%);
 width: 200px;
 height: auto;
 padding: 1em;
@@ -61,8 +60,8 @@ padding: 1em;
           animation: 4s ease-in 0s infinite alternate movegnu;
 }
 
-@-webkit-keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(25px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
-        @keyframes movegnu { from { transform: rotate(-45deg) translateY(5px) translateX(25px); } to { transform: rotate(-45deg) translateY(-5px) translateX(-10px); }  }
+@-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
+        @keyframes movegnu { from { transform: translateY(10%); } to { transform:translateY(-10%); }  }
  </style>
  </head>
 
