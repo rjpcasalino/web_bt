@@ -28,9 +28,6 @@ I am a self-taught programmer. I might have more to say sometime later.
 I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<span>&CloseCurlyDoubleQuote;</span>
 
 ### Stuff I do / Stuff I've done
-> Projects 
->
->
 >> #### Pinocchio
 >
 > Single Page Application written using [Vue](https://vuejs.org/) with Vue Router and Vuex for state management during my time at GawkBox. This replaced a Sails application.
@@ -97,6 +94,7 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 - C
 - Distributed systems
 - Rust
+<br>
 <footer>
 <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which itself is a modified version created by the Nevrax Design Team.</small>
 </footer>
