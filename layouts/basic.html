@@ -70,19 +70,16 @@ padding: 1em;
 	position:relative;
 	top:-100px;
 	width:100%;
-	text-align: right;
+	text-align: center;
 }
 
 #leaves i {
     display: inline-block;
     width: 200px;
     height: 150px;
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
-    transform: skew(20deg);
-    border-radius: 100%;
-    border: 1px solid #333;
+    background: rgb(235,158,207);
+    transform: skew(25deg);
+    border-radius: 100% 0% 100% 0% / 100% 2% 98% 0%;
     z-index: 1;
     -webkit-animation: falling 6s 0s infinite;
 }
@@ -92,20 +89,12 @@ padding: 1em;
 
 #leaves i:before {
   position: absolute;
-  content: '';
-  top: 117px;
-  right: 9px;
-  height: 27px;
-  width: 32px;
   transform: rotate(49deg);
-  border-radius: 0% 15% 15% 0%;
+  border-radius: 75% 25% 69% 31% / 100% 4% 96% 0%;
   z-index: 0;
 }
 
 #leaves i:after {
-  content: '';
-  height: 125px;
-  width: 10px;
   background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
@@ -129,11 +118,11 @@ padding: 1em;
 #leaves i:nth-of-type(3n+2):before  { height:4px; width:4px; top:12px; right:1px; }
 #leaves i:nth-of-type(3n+2):after  { height:10px; width:2px; top:1px; left:8px; }
 
-#leaves i:nth-of-type(n)   { -webkit-animation-delay: 1.9s;}
+#leaves i:nth-of-type(n)   { -webkit-animation-delay: 1.5s;}
 #leaves i:nth-of-type(2n)  { -webkit-animation-delay: 3.9s;}
 #leaves i:nth-of-type(3n)  { -webkit-animation-delay: 2.3s;}
 #leaves i:nth-of-type(4n)  { -webkit-animation-delay: 4.4s;}
-#leaves i:nth-of-type(5n)  { -webkit-animation-delay: 5s;  }
+#leaves i:nth-of-type(5n)  { -webkit-animation-delay: 6s;  }
 #leaves i:nth-of-type(6n)  { -webkit-animation-delay: 3.5s;}
 #leaves i:nth-of-type(7n)  { -webkit-animation-delay: 2.8s;}
 #leaves i:nth-of-type(8n)  { -webkit-animation-delay: 1.5s;}
@@ -146,19 +135,15 @@ padding: 1em;
 #leaves i:nth-of-type(15n) { -webkit-animation-delay: 3s;  }
 
 #leaves i:nth-of-type(n)  { 
-	background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+	background: rgb(235,158,207);
 }
+
 #leaves i:nth-of-type(2n+2)  { 
-background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+background: rgb(235,158,207);
 }
+
 #leaves i:nth-of-type(4n+1)  {
-background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+background: rgb(235,158,207);
 }
 
 #leaves i:nth-of-type(n)    { opacity: .7;}
