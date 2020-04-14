@@ -91,10 +91,10 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 >> <span>&mdash;</span>Doug McIlroy
 
 #### Stuff I'm (trying) to learn more about
-- awk
-- C
+- [awk](https://en.wikipedia.org/wiki/AWK)
+- [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
 - Distributed systems
-- Rust
+- [Rust](https://www.rust-lang.org/)
 
 <hr>
 <code>WIP</code>
