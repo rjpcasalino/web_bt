@@ -79,7 +79,7 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 #### Tools I use (and like)
 
 - [vim](https://www.vim.org/) - I learn something new about it almost every month.
-- [GNU/Linux](https://www.gnu.org/) - my daily drivers are NixOS, Debian.
+- [GNU/Linux](https://www.gnu.org/) - my daily drivers are [NixOS](https://nixos.org/), [Debian](https://www.debian.org/).
 - [FreeBSD](https://www.freebsd.org/) - used as a desktop machine.
 - Numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
 - I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
