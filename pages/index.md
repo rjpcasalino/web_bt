@@ -41,11 +41,11 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 >
 >> #### Mayday
 >
-> Admin portal written in Go that communicated with a PostgreSQL database. Allowed users to alter records for given enterprises (hotels, in this case) as well as that enterprise's assets (panic buttons, in this case).
+> Admin portal written in Go that communicated with a PostgreSQL database. Allowed users to alter records for given enterprises (hotels, in this case) as well as that enterprise's assets (panic buttons).
 >
 >> #### Chairman
 >
-> I helped maintain this Ruby of Rails application that served as the backbone for life safety application akin to Life Alert<span>&TRADE;</span>. I worked to update the Rails version and removed (and optimized!) certain code chunks.
+> I helped maintain this Ruby of Rails application that served as the backbone for a life safety application akin to Life Alert<span>&TRADE;</span>. I worked to update the Rails version and optimized the code base.
 >
 >> #### Gadfly
 >
