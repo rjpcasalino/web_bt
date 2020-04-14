@@ -50,7 +50,7 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 >
 >> #### Gadfly
 >
-> A simple service that sent operations staff notifications via Slack / allowed said staff to preform certain operations against database with Slack commands. 
+> A simple service that sent operations staff notifications using the [Slack API](https://api.slack.com/) which allowed staff to preform limited operations against database with Slack commands. 
 >
 >> #### Odyssey
 >
