@@ -3,6 +3,10 @@ title: Boring Tranquility
 layout: basic
 ---
 
+> The most effective debugging tool is still careful thought, coupled with judiciously placed print statements. 
+>
+>> <span>&mdash;</span>Brian Kernighan
+
 > The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.
 >
 >> <span>&mdash;</span>Fred Brooks
@@ -15,7 +19,7 @@ I am a programmer. This is my small part of the internet. There are many like it
 
 No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which itself is a modified version created by the Nevrax Design Team.
 
-> [Hire me!](mailto:jobs@boringtranquility.io)
+> ## [Hire me!](mailto:jobs@boringtranquility.io)
 
 ### Hire you? I don't even know you!
 Yep, you're right on that score!
@@ -23,7 +27,7 @@ A bit more about me:
 I enjoy all manner of books be they technical, derivative, trivial or otherwise. 
 I collect O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/wiki/O%27Reilly_Media#/media/File:ACM_OReilly-Rainbow-large-flash.jpg). I place them, as if trophies, throughout my apartment. Much to my wife's chagrin, I am sure.
 I am a self-taught programmer. I might have more to say sometime later. 
-I enjoy starting sentences with the word "I".
+I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<span>&CloseCurlyDoubleQuote;</span>
 
 ### Stuff I do / Stuff I've done
 > Projects 
@@ -54,7 +58,7 @@ I enjoy starting sentences with the word "I".
 >
 >> #### Odyssey
 >
-> A hastily written static site generator (I used it to generate this site!) written in Python. In need of refinement!
+> A hastily written static site generator in Python (I used it to generate this site!). It's in need of much refinement.
 
 - I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/)
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.

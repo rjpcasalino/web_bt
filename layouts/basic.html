@@ -36,6 +36,15 @@ li {
                 "content"
                 "footer";
 }
+
+ nav ul {
+     display: flex;
+     justify-content: space-evenly;
+}
+nav li {
+     list-style: disclosure-open;
+}
+
 a:visited {
   color: blue;
 }
@@ -56,16 +65,23 @@ padding: 1em;
  </head>
 
   <body>
-	  <code><h1><span>&mdash;</span>The Home Page of Ryan Casalino</h1></code>
+	  <code><h1><span>&Tilde;</span>The Home Page of Ryan Casalino</h1></code>
 	  <br>
 	  <img id="meditate" src="static/meditate-papolivre-small.png" alt="GNU meditate">
+	  <nav class="nav">
+		  <ul>
+			  <li>~/shots</li>
+			  <li>~/.configs</li>
+			  <li>~/reading</li>
+		  </ul>
+	  </nav>
 	  <hr>
 	  <div class="wrapper">
 	  	{{content|safe}}
+		  <audio controls style="visibility:hidden;">
+  			<source src="https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg" type="audio/ogg" autoplay>
+		  </audio>
 	  </div>
-	  <audio controls style="visibility:hidden;">
-  		<source src="https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg" type="audio/ogg" autoplay>
-	</audio>
 
 <script>
 // see here: https://davidwalsh.name/javascript-debounce-function
