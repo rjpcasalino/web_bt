@@ -94,7 +94,9 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 - C
 - Distributed systems
 - Rust
-<br>
+
+<hr>
 <footer>
-<small>The Levitating, Meditating, Flute-playing Gnu. This is the work of [Aurélio A. Heckert](https://www.gnu.org/graphics/meditate.html) which itself is a modified version created by the Nevrax Design Team.</small>
+<small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
+Find out more here: https://www.gnu.org/graphics/meditate.html</small>
 </footer>
