@@ -57,7 +57,7 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 
 - I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/)
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
-- I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, et al.
+- I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, Lambda, et al.
 - I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GCP.
 - Have worked at two startups and two mid-sized companies. 
 
@@ -68,9 +68,10 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 * [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
 * [JavaScript](https://www.ecma-international.org/) ~ 5 years
 * [Go](https://golang.org/) ~ 5 years
-* [HTML/CSS](https://www.w3.org/) ~ 10 years
+* [HTML/CSS](https://developer.mozilla.org/en-US/) ~ 10 years
 * [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
 * [GNU/Linux](https://www.gnu.org/) ~ 5 years
+* [SQL](https://en.wikipedia.org/wiki/SQL) ~ 3 years
 * [React](https://reactjs.org/) ~ 2 years
 * [Vue](https://vuejs.org/) ~ 2 years
 
