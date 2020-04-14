@@ -4,15 +4,16 @@ layout: basic
 ---
 
 > The most effective debugging tool is still careful thought, coupled with judiciously placed print statements. 
->
 >> <span>&mdash;</span>Brian Kernighan
 
 > The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.
->
 >> <span>&mdash;</span>Fred Brooks
 
 > When I take up a newspaper and read it, I fancy I see ghosts creeping between the lines. There must be ghosts all over the world. They must be as countless as the grains of the sands, it seems to me.
 >> <span>&mdash;</span>Henrik Ibsen
+
+> Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+>> <span>&mdash;</span>Martin Fowler
 
 ### Hi, I'm Ryan Casalino. 
 I am a programmer. This is my small part of the internet. There are many like it, of course, but this one is mine. I like simplicity over complexity. I believe anyone with half a brain and a willingness to learn can become a computer programmer, a keyboard cowboy, a stream samurai, etc, etc and so on in that fashion.
