@@ -20,20 +20,62 @@ No, I did not create the Levitating, Meditating, Flute-playing Gnu. This is the 
 ### Hire you? I don't even know you!
 Yep, you're right on that score!
 A bit more about me:
-I think the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web) is really cool!
 I enjoy all manner of books be they technical, derivative, trivial or otherwise. 
 I collect O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/wiki/O%27Reilly_Media#/media/File:ACM_OReilly-Rainbow-large-flash.jpg). I place them, as if trophies, throughout my apartment. Much to my wife's chagrin, I am sure.
-I am self-taught. I might have more to say sometime later. 
+I am a self-taught programmer. I might have more to say sometime later. 
 I enjoy starting sentences with the word "I".
 
 ### Stuff I do / Stuff I've done
-- I've written web applications using [Ruby on Rails](https://rubyonrails.org/), and [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework). 
-- I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs using JavaScript(node), Go, Python, and Ruby.
+> Projects 
+>
+>
+>> #### Pinocchio
+>
+> Single Page Application written using [Vue](https://vuejs.org/) with Vue Router and Vuex for state management during my time at GawkBox. This replaced a Sails application.
+>> #### Tintin
+>
+> Go backend written to facilitate data communication between aforementioned Vue SPA. Allowed authentication with YouTube, Twitch, and Mixer. Handled user updates such as profile changes (e.g., avatar updates, bio changes etc). Communicated with a MySQL database.
+>
+>> #### Shadow 
+>
+> Ruby written service that utilized [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) to send messages to a front end dashboard.
+>
+>> #### Mayday
+>
+> Admin portal written in Go that communicated with a PostgreSQL database. Allowed users to alter records for given enterprises (hotels, in this case) as well as that enterprise's assets (panic buttons, in this case).
+>
+>> #### Chairman
+>
+> I helped maintain this Ruby of Rails application that served as the backbone for life safety application akin to Life Alert<span>&TRADE;</span>. I worked to update the Rails version and removed (and optimized!) certain code chunks.
+>
+>> #### Gadfly
+>
+> A simple service that sent operations staff notifications via Slack / allowed said staff to preform certain operations against database with Slack commands. 
+>
+>> #### Odyssey
+>
+> A hastily written static site generator (I used it to generate this site!) written in Python. In need of refinement!
+
+- I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/)
+- I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
 - I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, et al.
-- I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GPC.
+- I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GCP.
 - Have worked at two startups and two mid-sized companies. 
 
-### Tools I use (and like)
+<!-- <img id="penguin" alt="https://www.mariowiki.com/Penguin" src="/static/super_mario_64_panguin.gif"> -->
+ 
+## Skills
+* [Python](https://www.python.org/) ~ 5 years
+* [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
+* [JavaScript](https://www.ecma-international.org/) ~ 5 years
+* [Go](https://golang.org/) ~ 5 years
+* [HTML/CSS](https://www.w3.org/) ~ 10 years
+* [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
+* [GNU/Linux](https://www.gnu.org/) ~ 5 years
+* [React](https://reactjs.org/) ~ 2 years
+* [Vue](https://vuejs.org/) ~ 2 years
+
+#### Tools I use (and like)
 
 - [vim](https://www.vim.org/) - I learn something new about it almost every month.
 - [GNU/Linux](https://www.gnu.org/) - my daily drivers are NixOS, Debian, and [FreeBSD](https://www.freebsd.org/).
@@ -42,25 +84,19 @@ I enjoy starting sentences with the word "I".
 - My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/)
 - I really really really miss Mac OS X!
 
-### Tools I use and don't like
-- Windows
+#### Tools I use and don't like
+- Microsoft Windows
 > Word and Excel and PowerPoint and other Microsoft programs have intimate — one might say promiscuous — knowledge of each others' internals. In Unix, one tries to design programs to operate not specifically with each other, but with programs as yet unthought of.
->> Doug McIlroy
-- macOS
-> because of [System Integrity Protection](https://support.apple.com/en-us/HT204899)
+>
+>> <span>&mdash;</span>Doug McIlroy
 
-Here's the core of it and I'll quit yapping:
-<!-- <img id="penguin" alt="https://www.mariowiki.com/Penguin" src="/static/super_mario_64_panguin.gif"> -->
- ### Skills
-* [Python](https://www.python.org/) ~ 5 years
-* [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
-* [JavaScript](https://www.ecma-international.org/) ~ 5 years
-* [Go](https://golang.org/) ~ 5 years
-* [HTML/CSS](https://www.w3.org/) ~ 10 years
-* [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
-* [GNU/Linux](https://www.gnu.org/) ~ 5 years
+#### Stuff I'm (trying) to learn more about
+- awk
+- C
+- Distributed systems
+- Rust
 
-### Links
+#### Links
 - [GitHub](https://github.com/rjpcasalino)
 - [sourcehut](https://git.sr.ht/~rjpcasalino/)
 - [my blog](https://blog.boringtranquility.io)
