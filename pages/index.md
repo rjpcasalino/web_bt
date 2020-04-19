@@ -9,24 +9,12 @@ layout: basic
 > The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.
 >> <span>&mdash;</span>Fred Brooks
 
-> When I take up a newspaper and read it, I fancy I see ghosts creeping between the lines. There must be ghosts all over the world. They must be as countless as the grains of the sands, it seems to me.
->> <span>&mdash;</span>Henrik Ibsen
-
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 >> <span>&mdash;</span>Martin Fowler
 
-### Hi, I'm Ryan Casalino. 
-I am a programmer. This is my small part of the internet. There are many like it, of course, but this one is mine. I like simplicity over complexity. I believe anyone with half a brain and a willingness to learn can become a computer programmer, a keyboard cowboy, a stream samurai, etc, etc and so on in that fashion.
-
-> ## [Hire me!](mailto:jobs@boringtranquility.io)
-
-### Hire you? I don't even know you!
-Yep, you're right on that score!
-A bit more about me:
+### Hi, I'm [Ryan Casalino](mailto:jobs@boringtranquility.io).<span>&#128406;</span> 
 I enjoy all manner of books be they technical, derivative, trivial or otherwise. 
-I collect O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/wiki/O%27Reilly_Media#/media/File:ACM_OReilly-Rainbow-large-flash.jpg). I place them, as if trophies, throughout my apartment. Much to my wife's chagrin, I am sure.
-I am a self-taught programmer. I might have more to say sometime later. 
-I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<span>&CloseCurlyDoubleQuote;</span>
+I collect O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/wiki/O%27Reilly_Media#/media/File:ACM_OReilly-Rainbow-large-flash.jpg). I place them, as if trophies, throughout my apartment. Much to my wife's chagrin. I've written a fair amount of code in the last 5 years.
 
 ### Stuff I do / Stuff I've done
 >> #### Pinocchio
@@ -34,7 +22,7 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 > Single Page Application written using [Vue](https://vuejs.org/) with Vue Router and Vuex for state management during my time at GawkBox. This replaced a Sails application.
 >> #### Tintin
 >
-> Go backend written to facilitate data communication between aforementioned Vue SPA. Allowed authentication with YouTube, Twitch, and Mixer. Handled user updates such as profile changes (e.g., avatar updates, bio changes etc). Communicated with a MySQL database.
+> Go back end written to facilitate data communication between aforementioned Vue SPA. Allowed authentication with YouTube, Twitch, and Mixer. Handled user updates such as profile changes (e.g., avatar updates, bio changes etc). Communicated with a MySQL database.
 >
 >> #### Shadow 
 >
@@ -56,15 +44,14 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 >
 > A hastily written static site generator in Python (I used it to generate this site!). It's in need of much refinement.
 
-- I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/)
+- I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/).
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
 - I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, Lambda, et al.
 - I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GCP.
-- Have worked at two startups and two mid-sized companies. 
 
-<!-- <img id="penguin" alt="https://www.mariowiki.com/Penguin" src="/static/super_mario_64_panguin.gif"> -->
- 
-## Skills
+Prior to my career as a Software Engineer I was the Operations/Technology Coordinator at a [charter school](https://crescentcityschools.org/en/home/) in New Orleans, LA. And before that I was an IT administrator at [American Apparel](https://en.wikipedia.org/wiki/American_Apparel).
+
+## Skills <span>&#128187;</span>
 * [Python](https://www.python.org/) ~ 5 years
 * [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
 * [JavaScript](https://www.ecma-international.org/) ~ 5 years
@@ -84,7 +71,6 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 - Numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
 - I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
 - My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/)
-- I really really really miss Mac OS X!
 
 #### Tools I use and don't like
 - Microsoft Windows
@@ -97,10 +83,6 @@ I enjoy starting sentences with the word <span>&OpenCurlyDoubleQuote;</span>I<sp
 - [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
 - Distributed systems
 - [Rust](https://www.rust-lang.org/)
-
-<hr>
-<code>WIP</code>
-
 <hr>
 <footer>
 <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
