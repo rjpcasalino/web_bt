@@ -27,7 +27,6 @@ li {
 
 .wrapper {
         display: grid;
-	padding: 1em;
         grid-template-areas:
                 "header"
                 "nav"
@@ -55,8 +54,8 @@ width: 200px;
 height: auto;
 padding: 1em;
 
-  -webkit-animation: 4s ease-in 0s infinite alternate movegnu;
-          animation: 4s ease-in 0s infinite alternate movegnu;
+  -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu;
+          animation: 4s ease-in-out .5s infinite alternate movegnu;
 }
 
 @-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
