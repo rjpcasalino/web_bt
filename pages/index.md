@@ -84,7 +84,3 @@ Prior to my career as a Software Engineer I was the Operations/Technology Coordi
 - Distributed systems
 - [Rust](https://www.rust-lang.org/)
 <hr>
-<footer>
-<small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
-Find out more here: https://www.gnu.org/graphics/meditate.html</small>
-</footer>
