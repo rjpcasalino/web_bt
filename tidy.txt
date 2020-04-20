@@ -1,0 +1,14 @@
+// config file for HTML tidy
+show-warnings: yes
+indent: auto
+indent-spaces: 2
+wrap: 74
+markup: yes
+numeric-entities: yes
+quote-marks: yes
+quote-nbsp: yes
+quote-ampersand: no
+break-before-br: no
+uppercase-tags: no
+uppercase-attributes: no
+drop-empty-elements: no

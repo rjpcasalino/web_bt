@@ -1,78 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{title}}</title>
-
-<style>
-body {
+  <style>
+  body {
         font-family: sans-serif;
         background-color: #f2eecb;
         overflow: auto;
         line-height: 1.2;
-}
-li {
-	list-style: none;
-	line-height: 1.5;
-}
+  }
+  li {
+        list-style: none;
+        line-height: 1.5;
+  }
 
-.header {
+  .header {
         grid-area: header;
-}
+  }
 
-.content {
+  .content {
         grid-area: content;
-}
+  }
 
-.wrapper {
+  .wrapper {
         display: grid;
         grid-template-areas:
                 "header"
                 "nav"
                 "content"
                 "footer";
-}
+  }
 
- nav ul {
+  nav ul {
      display: flex;
      justify-content: space-evenly;
-}
-nav li {
+  }
+  nav li {
      list-style: square;
-}
+  }
 
-a:visited {
+  a:visited {
   color: blue;
-}
+  }
 
-#meditate {
-display: flex;
-margin: 0 auto;
-transform: translateY(10%);
-width: 200px;
-height: auto;
-padding: 1em;
+  #meditate {
+  display: flex;
+  margin: 0 auto;
+  transform: translateY(10%);
+  width: 200px;
+  height: auto;
+  padding: 1em;
 
   -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu;
           animation: 4s ease-in-out .5s infinite alternate movegnu;
-}
+  }
 
-@-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
+  @-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
         @keyframes movegnu { from { transform: translateY(10%); } to { transform:translateY(-10%); }  }
 
 
 
-/* leaf animations */
+  /* leaf animations */
 
-#leaves {
-	position:relative;
-	top:-100px;
-	width:100%;
-	text-align: center;
-}
+  #leaves {
+        position:relative;
+        top:-100px;
+        width:100%;
+        text-align: center;
+  }
 
-#leaves i {
+  #leaves i {
     display: inline-block;
     width: 200px;
     height: 150px;
@@ -81,19 +82,19 @@ padding: 1em;
     border-radius: 100% 0% 100% 0% / 100% 2% 98% 0%;
     z-index: 1;
     -webkit-animation: falling 6s 0s infinite;
-}
+  }
 
-#leaves i:nth-of-type(2n) { -webkit-animation: falling2 5s 0s infinite; }
-#leaves i:nth-of-type(3n) { -webkit-animation: falling3 5s 0s infinite; }
+  #leaves i:nth-of-type(2n) { -webkit-animation: falling2 5s 0s infinite; }
+  #leaves i:nth-of-type(3n) { -webkit-animation: falling3 5s 0s infinite; }
 
-#leaves i:before {
+  #leaves i:before {
   position: absolute;
   transform: rotate(49deg);
   border-radius: 75% 25% 69% 31% / 100% 4% 96% 0%;
   z-index: 0;
-}
+  }
 
-#leaves i:after {
+  #leaves i:after {
   background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
@@ -102,59 +103,59 @@ padding: 1em;
   position: absolute;
   left: 85px;
   border-radius:50%;
-}
+  }
 
 
-#leaves i:nth-of-type(n)    { height:23px; width:30px; }
-#leaves i:nth-of-type(n):before { width:7px; height:5px; top:17px; right:1px; }
-#leaves i:nth-of-type(n):after { width:2px; height:17px; left: 12px; top:0px; }
+  #leaves i:nth-of-type(n)    { height:23px; width:30px; }
+  #leaves i:nth-of-type(n):before { width:7px; height:5px; top:17px; right:1px; }
+  #leaves i:nth-of-type(n):after { width:2px; height:17px; left: 12px; top:0px; }
 
-#leaves i:nth-of-type(2n+1)    { height:11px; width:16px; }
-#leaves i:nth-of-type(2n+1):before { width:4px; height:3px; top:7px; right:0px; }
-#leaves i:nth-of-type(2n+1):after { width:2px; height:6px; left: 5px; top:1px; }
+  #leaves i:nth-of-type(2n+1)    { height:11px; width:16px; }
+  #leaves i:nth-of-type(2n+1):before { width:4px; height:3px; top:7px; right:0px; }
+  #leaves i:nth-of-type(2n+1):after { width:2px; height:6px; left: 5px; top:1px; }
 
-#leaves i:nth-of-type(3n+2)  { height:17px; width:23px; }
-#leaves i:nth-of-type(3n+2):before  { height:4px; width:4px; top:12px; right:1px; }
-#leaves i:nth-of-type(3n+2):after  { height:10px; width:2px; top:1px; left:8px; }
+  #leaves i:nth-of-type(3n+2)  { height:17px; width:23px; }
+  #leaves i:nth-of-type(3n+2):before  { height:4px; width:4px; top:12px; right:1px; }
+  #leaves i:nth-of-type(3n+2):after  { height:10px; width:2px; top:1px; left:8px; }
 
-#leaves i:nth-of-type(n)   { -webkit-animation-delay: 1.5s;}
-#leaves i:nth-of-type(2n)  { -webkit-animation-delay: 3.9s;}
-#leaves i:nth-of-type(3n)  { -webkit-animation-delay: 2.3s;}
-#leaves i:nth-of-type(4n)  { -webkit-animation-delay: 4.4s;}
-#leaves i:nth-of-type(5n)  { -webkit-animation-delay: 6s;  }
-#leaves i:nth-of-type(6n)  { -webkit-animation-delay: 3.5s;}
-#leaves i:nth-of-type(7n)  { -webkit-animation-delay: 2.8s;}
-#leaves i:nth-of-type(8n)  { -webkit-animation-delay: 1.5s;}
-#leaves i:nth-of-type(9n)  { -webkit-animation-delay: 3.3s;}
-#leaves i:nth-of-type(10n) { -webkit-animation-delay: 2.5s;}
-#leaves i:nth-of-type(11n) { -webkit-animation-delay: 1.2s;}
-#leaves i:nth-of-type(12n) { -webkit-animation-delay: 4.1s;}
-#leaves i:nth-of-type(13n) { -webkit-animation-delay: 1s;  }
-#leaves i:nth-of-type(14n) { -webkit-animation-delay: 4.7s;}
-#leaves i:nth-of-type(15n) { -webkit-animation-delay: 3s;  }
+  #leaves i:nth-of-type(n)   { -webkit-animation-delay: 1.5s;}
+  #leaves i:nth-of-type(2n)  { -webkit-animation-delay: 3.9s;}
+  #leaves i:nth-of-type(3n)  { -webkit-animation-delay: 2.3s;}
+  #leaves i:nth-of-type(4n)  { -webkit-animation-delay: 4.4s;}
+  #leaves i:nth-of-type(5n)  { -webkit-animation-delay: 6s;  }
+  #leaves i:nth-of-type(6n)  { -webkit-animation-delay: 3.5s;}
+  #leaves i:nth-of-type(7n)  { -webkit-animation-delay: 2.8s;}
+  #leaves i:nth-of-type(8n)  { -webkit-animation-delay: 1.5s;}
+  #leaves i:nth-of-type(9n)  { -webkit-animation-delay: 3.3s;}
+  #leaves i:nth-of-type(10n) { -webkit-animation-delay: 2.5s;}
+  #leaves i:nth-of-type(11n) { -webkit-animation-delay: 1.2s;}
+  #leaves i:nth-of-type(12n) { -webkit-animation-delay: 4.1s;}
+  #leaves i:nth-of-type(13n) { -webkit-animation-delay: 1s;  }
+  #leaves i:nth-of-type(14n) { -webkit-animation-delay: 4.7s;}
+  #leaves i:nth-of-type(15n) { -webkit-animation-delay: 3s;  }
 
-#leaves i:nth-of-type(n)  { 
-	background: rgb(235,158,207);
-}
+  #leaves i:nth-of-type(n)  { 
+        background: rgb(235,158,207);
+  }
 
-#leaves i:nth-of-type(2n+2)  { 
-background: rgb(235,158,207);
-}
+  #leaves i:nth-of-type(2n+2)  { 
+  background: rgb(235,158,207);
+  }
 
-#leaves i:nth-of-type(4n+1)  {
-background: rgb(235,158,207);
-}
+  #leaves i:nth-of-type(4n+1)  {
+  background: rgb(235,158,207);
+  }
 
-#leaves i:nth-of-type(n)    { opacity: .7;}
-#leaves i:nth-of-type(3n+1)  { opacity: .5;}
-#leaves i:nth-of-type(3n+2)  { opacity: .3;}
+  #leaves i:nth-of-type(n)    { opacity: .7;}
+  #leaves i:nth-of-type(3n+1)  { opacity: .5;}
+  #leaves i:nth-of-type(3n+2)  { opacity: .3;}
 
-#leaves i:nth-of-type(n)    {transform: rotate(180deg);}
+  #leaves i:nth-of-type(n)    {transform: rotate(180deg);}
 
 
-#leaves i:nth-of-type(n) { -webkit-animation-timing-function:ease-in-out;}
+  #leaves i:nth-of-type(n) { -webkit-animation-timing-function:ease-in-out;}
 
-@-webkit-keyframes falling {
+  @-webkit-keyframes falling {
     
     0% {
         -webkit-transform:
@@ -168,9 +169,9 @@ background: rgb(235,158,207);
             rotate(90deg);
         opacity: 0;
     }
-}
+  }
 
-@-webkit-keyframes falling3 {
+  @-webkit-keyframes falling3 {
      0% {
         -webkit-transform:
             translate3d(0,0,0)
@@ -183,9 +184,9 @@ background: rgb(235,158,207);
             rotate(-70deg);
         opacity: 0;
     }
-}
+  }
 
-@-webkit-keyframes falling2 {
+  @-webkit-keyframes falling2 {
      0% {
         -webkit-transform:
             translate3d(0,0,0)
@@ -198,56 +199,45 @@ background: rgb(235,158,207);
             rotate(0deg);
         opacity: 0;
     }
-}
+  }
 
 
 
- </style>
- </head>
-
-  <body>
-		  <div id="leaves">
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-			  <i></i>
-		</div>
-
-	  <code><h1><span>&Tilde;</span>/home/rjpcasalino</h1></code>
-	  <br>
-	  <div id="cherry"></div>
-	  <img id="meditate" src="static/meditate-papolivre-small.png" alt="GNU meditate">
-	  <nav class="nav">
-		  <ul>
-			  <li><a href="https://github.com/rjpcasalino">GitHub</a></li>
-			  <li><a href="https://git.sr.ht/~rjpcasalino/">sourcehut</a></li>
-			  <li><a href="https://blog.boringtranquility.io/">boring blog</a></li>
-		  </ul>
-	  </nav>
-	  <hr>
-	  <div class="wrapper">
-	  	{{content|safe}}
-		  <audio controls style="visibility:hidden;">
-  			<source src="https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg" type="audio/ogg" autoplay>
-		  </audio>
-	  </div>
-
-<script>
-// see here: https://davidwalsh.name/javascript-debounce-function
-function debounce(func, wait, immediate) {
- var timeout;
- return function() {
+  </style>
+</head>
+<body>
+  <div id="leaves">
+    <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
+    <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
+  </div><code></code>
+  <h1><code><span>∼</span>/home/rjpcasalino</code></h1><br>
+  <div id="cherry"></div><img id="meditate" src=
+  "static/meditate-papolivre-small.png" alt="GNU meditate">
+  <nav class="nav">
+    <ul>
+      <li>
+        <a href="https://github.com/rjpcasalino">GitHub</a>
+      </li>
+      <li>
+        <a href="https://git.sr.ht/~rjpcasalino/">sourcehut</a>
+      </li>
+      <li>
+        <a href="https://blog.boringtranquility.io/">boring blog</a>
+      </li>
+    </ul>
+  </nav>
+  <hr>
+  <div class="wrapper">
+    {{content|safe}} <audio controls="" style=
+    "visibility:hidden;"><source src=
+    "https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg"
+    type="audio/ogg" autoplay=""></audio>
+  </div>
+  <script>
+  // see here: https://davidwalsh.name/javascript-debounce-function
+  function debounce(func, wait, immediate) {
+  var timeout;
+  return function() {
   var context = this, args = arguments;
   var later = function() {
    timeout = null;
@@ -257,23 +247,23 @@ function debounce(func, wait, immediate) {
   clearTimeout(timeout);
   timeout = setTimeout(later, wait);
   if (callNow) func.apply(context, args);
- };
-};
+  };
+  };
 
-const el = document.getElementById('penguin');
-window.addEventListener('scroll', debounce(function(e) {
-	if (window.scrollY > el.offsetTop) {
-		var a = document.querySelector('audio');
-		a.play();
-	}
-}, 200));
+  const el = document.getElementById('penguin');
+  window.addEventListener('scroll', debounce(function(e) {
+        if (window.scrollY > el.offsetTop) {
+                var a = document.querySelector('audio');
+                a.play();
+        }
+  }, 200));
 
-el.ontimeupdate = debounce(function(e) {
-	let ct = Math.round(el.currentTime);
-	if (ct === 3) {
-		console.log('do stuff');
-	}
-}, 250);
-	</script>
-  </body>
+  el.ontimeupdate = debounce(function(e) {
+        let ct = Math.round(el.currentTime);
+        if (ct === 3) {
+                console.log('do stuff');
+        }
+  }, 250);
+  </script>
+</body>
 </html>
