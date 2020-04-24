@@ -21,6 +21,10 @@
   .header {
         grid-area: header;
   }
+ 
+  .nav {
+        grid-area: nav;
+  }
 
   .content {
         grid-area: content;
@@ -202,46 +206,52 @@
   }
 
 
-
   </style>
 </head>
 <body>
-  <div id="leaves">
-    <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
-    <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
-  </div><code></code>
-  <h1><code><span>∼</span>/home/rjpcasalino</code></h1><br>
-  <div id="cherry"></div><img id="meditate" src=
-  "static/meditate-papolivre-small.png" alt="GNU meditate">
-  <nav class="nav">
-    <ul>
-      <li>
-        <a href="https://github.com/rjpcasalino">GitHub</a>
-      </li>
-      <li>
-        <a href="https://git.sr.ht/~rjpcasalino/">sourcehut</a>
-      </li>
-      <li>
-        <a href="https://www.boringtranquility.io/cv/cv.pdf">resume/cv</a>
-      </li>
-      <li>
-        <a href="https://blog.boringtranquility.io/">boring blog</a>
-      </li>
-    </ul>
-  </nav>
-  <hr>
   <div class="wrapper">
-    {{content|safe}} <audio controls="" style=
+	  <div class="header">
+  		<div id="leaves">
+    			<i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
+    			<i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
+  		</div>
+  	<h1><code><span>∼</span>/home/rjpcasalino</code></h1>
+	<br>
+  	<div id="cherry"></div><img id="meditate" src=
+  	"static/meditate-papolivre-small.png" alt="GNU meditate">
+	  </div>
+	  <nav class="nav">
+	    <ul>
+	      <li>
+		<a href="https://github.com/rjpcasalino">GitHub</a>
+	      </li>
+	      <li>
+		<a href="https://git.sr.ht/~rjpcasalino/">sourcehut</a>
+	      </li>
+	      <li>
+		<a href="https://www.boringtranquility.io/cv/cv.pdf">resume/cv</a>
+	      </li>
+	      <li>
+		<a href="https://blog.boringtranquility.io/">boring blog</a>
+	      </li>
+	    </ul>
+	  </nav>
+	  <hr>
+	  <div class="content">
+    		{{content|safe}} 
+	  </div>
+
+    <audio controls="" style=
     "visibility:hidden;"><source src=
     "https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg"
     type="audio/ogg" autoplay=""></audio>
-  </div>
   <hr>
-  <footer>
+  <footer class="footer">
 	  <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
 Find out more here: https://www.gnu.org/graphics/meditate.html
 	  </small>
   </footer>
+  </div>
   <script>
   // see here: https://davidwalsh.name/javascript-debounce-function
   function debounce(func, wait, immediate) {
