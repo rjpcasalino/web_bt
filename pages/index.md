@@ -16,7 +16,8 @@ Here are some quotes I really enjoy and sum up my views on software programming:
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 >> <span>&mdash;</span>Martin Fowler
 
-### Things I've made 
+### /usr/bin
+#### (works) 
 >> #### Pinocchio
 >
 > Single Page Application written using [Vue](https://vuejs.org/) with Vue Router and Vuex for state management during my time at GawkBox. This replaced a Sails application.
