@@ -2,6 +2,10 @@
 title: Boring Tranquility
 layout: basic
 ---
+### Hi, I'm [Ryan Casalino](mailto:jobs@boringtranquility.io).<span>&#128406;</span> 
+I'm a programmer with a passion for all things related to the web and, yep, I sometimes write raw HTML (e.g.,`<br>`). I'm into the POSIX standard. What else? I like reading books and among my favorites are [Rabbit Redux](https://en.wikipedia.org/wiki/Rabbit_Redux), [The Art of Peace](https://en.wikipedia.org/wiki/Morihei_Ueshiba), and [UNIX: A History and a Memoir](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552). I'm big into self-hosting and this website is hosted on "bare metal" in my home in Seattle, WA. I use nginx and NixOS (and some magic) to get it done.
+
+Here are some quotes I really enjoy and sum up my views on software programming:
 
 > The most effective debugging tool is still careful thought, coupled with judiciously placed print statements. 
 >> <span>&mdash;</span>Brian Kernighan
@@ -12,14 +16,11 @@ layout: basic
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 >> <span>&mdash;</span>Martin Fowler
 
-### Hi, I'm [Ryan Casalino](mailto:jobs@boringtranquility.io).<span>&#128406;</span> 
-I enjoy all manner of books be they technical, derivative, trivial or otherwise. 
-I collect O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/wiki/O%27Reilly_Media#/media/File:ACM_OReilly-Rainbow-large-flash.jpg). I place them, as if trophies, throughout my apartment. Much to my wife's chagrin. I've written a fair amount of code in the last 5 years.
-
-### Stuff I do / Stuff I've done
+### Things I've made 
 >> #### Pinocchio
 >
 > Single Page Application written using [Vue](https://vuejs.org/) with Vue Router and Vuex for state management during my time at GawkBox. This replaced a Sails application.
+>
 >> #### Tintin
 >
 > Go back end written to facilitate data communication between aforementioned Vue SPA. Allowed authentication with YouTube, Twitch, and Mixer. Handled user updates such as profile changes (e.g., avatar updates, bio changes etc). Communicated with a MySQL database.
@@ -40,16 +41,16 @@ I collect O'Reilly Media's color-coded [Animal Books](https://en.wikipedia.org/w
 >
 > A simple service that sent operations staff notifications using the [Slack API](https://api.slack.com/) which allowed staff to preform limited operations against database with Slack commands. 
 >
->> #### Odyssey
+>> #### [Odyssey](https://git.sr.ht/~rjpcasalino/odyssey)
 >
-> A hastily written static site generator in Python (I used it to generate this site!). It's in need of much refinement.
+> A static site generator written in Python (I used it to generate this site!).
 
 - I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/).
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
 - I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, Lambda, et al.
-- I'm also very familiar with both Google's and Microsoft's cloud computing offerings. Azure and GCP.
+- I'm also very familiar with both Google's and Microsoft's cloud computing offerings: Azure and GCP.
 
-Prior to my career as a Software Engineer I was the Operations/Technology Coordinator at a [charter school](https://crescentcityschools.org/en/home/) in New Orleans, LA. And before that I was an IT administrator at [American Apparel](https://en.wikipedia.org/wiki/American_Apparel).
+Prior to my career as a Programmer/Software Engineer I was an Operations/Technology Coordinator at a [charter school](https://crescentcityschools.org/en/home/) in New Orleans, LA. And before that I was an IT administrator at [American Apparel](https://en.wikipedia.org/wiki/American_Apparel).
 
 ## Skills <span>&#128187;</span>
 * [Python](https://www.python.org/) ~ 5 years
@@ -72,15 +73,10 @@ Prior to my career as a Software Engineer I was the Operations/Technology Coordi
 - I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
 - My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/)
 
-#### Tools I use and don't like
-- Microsoft Windows
-> Word and Excel and PowerPoint and other Microsoft programs have intimate — one might say promiscuous — knowledge of each others' internals. In Unix, one tries to design programs to operate not specifically with each other, but with programs as yet unthought of.
->
->> <span>&mdash;</span>Doug McIlroy
-
 #### Stuff I'm (trying) to learn more about
 - [awk](https://en.wikipedia.org/wiki/AWK)
 - [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
-- Distributed systems
 - [Rust](https://www.rust-lang.org/)
-<hr>
+- Distributed systems
+
+If you got down here...thanks for stopping by!
