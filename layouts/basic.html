@@ -29,6 +29,10 @@
   .content {
         grid-area: content;
   }
+  
+  .footer {
+        grid-area: footer;
+  }
 
   .wrapper {
         display: grid;
@@ -38,14 +42,40 @@
                 "content"
                 "footer";
   }
-
-  nav ul {
-     display: flex;
-     justify-content: space-evenly;
-  }
   nav li {
      list-style: square;
   }
+
+@media (min-width: 500px) {
+.wrapper {
+ grid-template-columns: 1fr 3fr;
+ grid-template-areas:
+  "header header"
+  "nav nav"
+  "content content"
+  "footer footer";
+ }
+ nav ul {
+     display: flex;
+     justify-content: space-evenly;
+ }
+}
+
+@media (min-width: 700px) {
+.wrapper {
+ grid-template-columns: 1fr 4fr 1fr;
+ grid-template-areas:
+  "header header header"
+  "nav nav nav"
+  "content content content"
+  "footer footer footer";
+
+ }
+ nav ul {
+     display: flex;
+     justify-content: space-evenly;
+ }
+}
 
   a:visited {
   color: blue;
@@ -219,6 +249,7 @@
 	<br>
   	<div id="cherry"></div><img id="meditate" src=
   	"static/meditate-papolivre-small.png" alt="GNU meditate">
+	  <hr>
 	  </div>
 	  <nav class="nav">
 	    <ul>
@@ -239,13 +270,13 @@
 	  <hr>
 	  <div class="content">
     		{{content|safe}} 
+		<hr>
 	  </div>
 
     <audio controls="" style=
     "visibility:hidden;"><source src=
     "https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg"
     type="audio/ogg" autoplay=""></audio>
-  <hr>
   <footer class="footer">
 	  <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
 Find out more here: https://www.gnu.org/graphics/meditate.html
