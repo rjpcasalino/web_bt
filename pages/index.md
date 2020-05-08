@@ -2,7 +2,7 @@
 title: Boring Tranquility
 layout: basic
 ---
-### Hi, I'm [Ryan Casalino](mailto:ryan@boringtranquility.io rel:Ryan Casalino).<span>&#128406;</span> 
+### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="Ryan Casalino"></a>.<span>&#128406;</span> 
 I'm a programmer with a passion for all things related to the web and, yep, I sometimes write raw HTML (e.g.,`<br>`). I'm into the POSIX standard. What else? I like reading books and among my favorites are [Rabbit Redux](https://en.wikipedia.org/wiki/Rabbit_Redux), [The Art of Peace](https://en.wikipedia.org/wiki/Morihei_Ueshiba), and [UNIX: A History and a Memoir](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552). I'm big into self-hosting and this website is hosted on "bare metal" in my home in Seattle, WA. I use nginx and NixOS (and some magic) to get it done.
 
 Here are some quotes I really enjoy and sum up my views on software programming:
