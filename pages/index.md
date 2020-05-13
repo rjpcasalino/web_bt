@@ -17,7 +17,6 @@ Here are some quotes I really enjoy and sum up my views on software programming:
 >> <span>&mdash;</span>Martin Fowler
 
 ### /usr/bin
-#### (works) 
 >> #### [Odyssey](https://git.sr.ht/~rjpcasalino/odyssey)
 >
 > A static site generator written in Python (I used it to generate this site!).
@@ -25,10 +24,12 @@ Here are some quotes I really enjoy and sum up my views on software programming:
 >
 > A bunch of scripts that might or might not be useful
 
+<br>
+
 - I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/).
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
-- I've worked with many [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, Lambda, et al.
-- I'm also very familiar with both Google's and Microsoft's cloud computing offerings: Azure and GCP.
+- I use [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, Lambda, et al.
+- Very familiar with both Google's and Microsoft's cloud computing offerings: Azure and GCP.
 
 Prior to my career as a Programmer/Software Engineer I was an Operations/Technology Coordinator at a [charter school](https://crescentcityschools.org/en/home/) in New Orleans, LA. And before that I was an IT administrator at [American Apparel](https://en.wikipedia.org/wiki/American_Apparel).
 
@@ -57,6 +58,5 @@ Prior to my career as a Programmer/Software Engineer I was an Operations/Technol
 - [awk](https://en.wikipedia.org/wiki/AWK)
 - [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
 - [Rust](https://www.rust-lang.org/)
-- Distributed systems
 
 If you got down here...thanks for stopping by!
