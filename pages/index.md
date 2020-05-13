@@ -18,33 +18,12 @@ Here are some quotes I really enjoy and sum up my views on software programming:
 
 ### /usr/bin
 #### (works) 
->> #### Pinocchio
->
-> Single Page Application written using [Vue](https://vuejs.org/) with Vue Router and Vuex for state management during my time at GawkBox. This replaced a Sails application.
->
->> #### Tintin
->
-> Go back end written to facilitate data communication between aforementioned Vue SPA. Allowed authentication with YouTube, Twitch, and Mixer. Handled user updates such as profile changes (e.g., avatar updates, bio changes etc). Communicated with a MySQL database.
->
->> #### Shadow 
->
-> Ruby written service that utilized [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) to send messages to a front end dashboard.
->
->> #### Mayday
->
-> Admin portal written in Go that communicated with a PostgreSQL database. Allowed users to alter records for given enterprises (hotels, in this case) as well as that enterprise's assets (panic buttons).
->
->> #### Chairman
->
-> I helped maintain this Ruby of Rails application that served as the backbone for a life safety application akin to Life Alert<span>&TRADE;</span>. I worked to update the Rails version and optimized the code base.
->
->> #### Gadfly
->
-> A simple service that sent operations staff notifications using the [Slack API](https://api.slack.com/) which allowed staff to preform limited operations against database with Slack commands. 
->
 >> #### [Odyssey](https://git.sr.ht/~rjpcasalino/odyssey)
 >
 > A static site generator written in Python (I used it to generate this site!).
+>> #### [Scripts](https://github.com/rjpcasalino/Shangri-La/tree/master/bash/bin)
+>
+> A bunch of scripts that might or might not be useful
 
 - I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/).
 - I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
