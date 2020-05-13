@@ -20,9 +20,12 @@ Here are some quotes I really enjoy and sum up my views on software programming:
 >> #### [Odyssey](https://git.sr.ht/~rjpcasalino/odyssey)
 >
 > A static site generator written in Python (I used it to generate this site!).
+
 >> #### [Scripts](https://github.com/rjpcasalino/Shangri-La/tree/master/bash/bin)
 >
 > A bunch of scripts that might or might not be useful
+>> #### [Boring Wiki](https://wiki.boringtranquility.io)
+> Made following [Wiki Way](http://wiki.org/wiki.cgi?WikiWay). I learned some stuff about Perl! 
 
 <br>
 
