@@ -2,10 +2,9 @@
 title: Boring Tranquility
 layout: basic
 ---
-### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="me">Ryan Casalino</a>.<span>&#128406;</span> 
-I'm a programmer with a passion for all things related to the web and, yep, I sometimes write raw HTML (e.g.,`<br>`). I'm into the POSIX standard. What else? I like reading books and among my favorites are [Rabbit Redux](https://en.wikipedia.org/wiki/Rabbit_Redux), [The Art of Peace](https://en.wikipedia.org/wiki/Morihei_Ueshiba), and [UNIX: A History and a Memoir](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552). I'm big into self-hosting and this website is hosted on "bare metal" in my home in Seattle, WA. I use nginx and NixOS (and some magic) to get it done.
 
-Here are some quotes I really enjoy and sum up my views on software programming:
+### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="me">Ryan Casalino</a>.<span>&#128406;</span> 
+I'm a programmer that's more of a rambler in the groves of academe than a serious student. I read comparatively little. I try to understand as best I can most everything I put my mind to. I more often than not come up short. I feel we can sometimes enter a boring tranquility of sorts wherein little is ventured and much less else is gained. In the realm of $WORK, I tend to fallback to intellectually certified individuals:
 
 > The most effective debugging tool is still careful thought, coupled with judiciously placed print statements. 
 >> <span>&mdash;</span>Brian Kernighan
@@ -16,25 +15,25 @@ Here are some quotes I really enjoy and sum up my views on software programming:
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 >> <span>&mdash;</span>Martin Fowler
 
+I sometimes wish I had a better capacity for thought than I do. Alas! T
+
 ### /usr/bin
 >> #### [Odyssey](https://git.sr.ht/~rjpcasalino/odyssey)
 >
-> A static site generator written in Python (I used it to generate this site!).
+> A static site generator written in Python that was used for this website. 
 
->> #### [Scripts](https://github.com/rjpcasalino/Shangri-La/tree/master/bash/bin)
+>> #### [scripts](https://github.com/rjpcasalino/Shangri-La/tree/master/bash/bin)
 >
-> A bunch of scripts that might or might not be useful
+> A few of (maybe) useful scripts.
 >> #### [Boring Wiki](https://wiki.boringtranquility.io)
-> Made following [Wiki Way](http://wiki.org/wiki.cgi?WikiWay). I learned some stuff about Perl! 
+> 
+> I read the [Wiki Way](http://wiki.org/wiki.cgi?WikiWay) recently (2020) and I wanted to see if I could get something hosted. I learned some stuff about Perl along the way. Nothing much has happened since. Please, contribute a page! 
 
 <br>
 
-- I mostly use [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) (a Python micro-framework), and [Sinatra](http://sinatrarb.com/).
-- I've written [RESTful](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) APIs.
-- I use [AWS](https://upload.wikimedia.org/wikipedia/commons/c/c1/BSoD_in_Windows_1.0.png) tools including but not limited to: EC2, SNS, S3, SQS, Lambda, et al.
-- Very familiar with both Google's and Microsoft's cloud computing offerings: Azure and GCP.
+- I tend to default to either [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) or [Sinatra](http://sinatrarb.com/).
 
-Prior to my career as a Programmer/Software Engineer I was an Operations/Technology Coordinator at a [charter school](https://crescentcityschools.org/en/home/) in New Orleans, LA. And before that I was an IT administrator at [American Apparel](https://en.wikipedia.org/wiki/American_Apparel).
+Prior to my career as a Programmer/Software Engineer I was an Operations/Technology Coordinator at a [charter school](https://crescentcityschools.org/en/home/) in New Orleans, LA. Before that an IT administrator at [American Apparel](https://en.wikipedia.org/wiki/American_Apparel).
 
 ## Skills <span>&#128187;</span>
 * [Python](https://www.python.org/) ~ 5 years
@@ -55,11 +54,6 @@ Prior to my career as a Programmer/Software Engineer I was an Operations/Technol
 - [FreeBSD](https://www.freebsd.org/) - used as a desktop machine.
 - Numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
 - I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
-- My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/)
-
-#### Stuff I'm (trying) to learn more about
-- [awk](https://en.wikipedia.org/wiki/AWK)
-- [C](https://en.wikipedia.org/wiki/C_%28programming_language%29)
-- [Rust](https://www.rust-lang.org/)
+- My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/).
 
 If you got down here...thanks for stopping by!
