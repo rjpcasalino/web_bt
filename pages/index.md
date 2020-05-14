@@ -15,8 +15,6 @@ I'm a programmer that's more of a rambler in the groves of academe than a seriou
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
 >> <span>&mdash;</span>Martin Fowler
 
-I sometimes wish I had a better capacity for thought than I do. Alas! T
-
 ### /usr/bin
 >> #### [Odyssey](https://git.sr.ht/~rjpcasalino/odyssey)
 >
