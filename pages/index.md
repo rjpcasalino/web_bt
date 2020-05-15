@@ -20,13 +20,17 @@ I'm a programmer that's more of a rambler in the groves of academe than a seriou
 >
 > A static site generator written in Python that was used for this website. 
 
->> #### [scripts](https://github.com/rjpcasalino/Shangri-La/tree/master/bash/bin)
+>> #### [Jitney International Times](https://www.jitney.cab/)
 >
-> A few of (maybe) useful scripts.
+> Not yet completed "Newspaper for the masses" which will likely cost five cents a week. I hope. 
+
 >> #### [Boring Wiki](https://wiki.boringtranquility.io)
 > 
 > I read the [Wiki Way](http://wiki.org/wiki.cgi?WikiWay) recently (2020) and I wanted to see if I could get something hosted. I learned some stuff about Perl along the way. Nothing much has happened since. Please, contribute a page! 
 
+>> #### [scripts](https://github.com/rjpcasalino/Shangri-La/tree/master/bash/bin)
+>
+> A few of (maybe) useful scripts.
 <br>
 
 - I tend to default to either [Ruby on Rails](https://rubyonrails.org/), [Flask](https://flask.palletsprojects.com/en/1.1.x/) or [Sinatra](http://sinatrarb.com/).
