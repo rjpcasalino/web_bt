@@ -40,14 +40,14 @@ Prior to my career as a Programmer/Software Engineer I was an Operations/Technol
 ## Skills <span>&#128187;</span>
 * [Python](https://www.python.org/) ~ 5 years
 * [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
-* [JavaScript](https://www.ecma-international.org/) ~ 5 years
 * [Go](https://golang.org/) ~ 5 years
-* [HTML/CSS](https://developer.mozilla.org/en-US/) ~ 10 years
-* [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
-* [GNU/Linux](https://www.gnu.org/) ~ 5 years
 * [SQL](https://en.wikipedia.org/wiki/SQL) ~ 3 years
+* [HTML/CSS](https://developer.mozilla.org/en-US/) ~ 10 years
+* [JavaScript](https://www.ecma-international.org/) ~ 5 years
 * [React](https://reactjs.org/) ~ 2 years
 * [Vue](https://vuejs.org/) ~ 2 years
+* [GNU/Linux](https://www.gnu.org/) ~ 5 years
+* [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
 
 #### Tools I use (and like)
 
@@ -56,6 +56,5 @@ Prior to my career as a Programmer/Software Engineer I was an Operations/Technol
 - [FreeBSD](https://www.freebsd.org/) - used as a desktop machine.
 - Numerous [Raspberry Pis](https://www.raspberrypi.org/) for a multitude of personal projects (they're great fun!)
 - I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
-- My machines usually have a base system installed with these tools: xterm, GNU screen, and i3. Oh, and yes, Firefox. Sometimes I [surf](https://surf.suckless.org/).
 
 If you got down here...thanks for stopping by!
