@@ -5,127 +5,66 @@
   "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{title}}</title>
+  <title>[% title %]</title>
   <style>
-  body {
-        font-family: sans-serif;
-        background-color: #f2eecb;
-        overflow: auto;
-        line-height: 1.2;
-  }
-  li {
-        list-style: none;
-        line-height: 1.5;
-  }
-
-  .header {
-        grid-area: header;
-  }
- 
-  .nav {
-        grid-area: nav;
-  }
-
-  .content {
-        grid-area: content;
-  }
-  
-  .footer {
-        grid-area: footer;
-  }
-
-  .wrapper {
-        display: grid;
-        grid-template-areas:
-                "header"
-                "nav"
-                "content"
-                "footer";
-  }
-  nav li {
-     list-style: square;
-  }
-
-@media (min-width: 500px) {
-.wrapper {
- grid-template-columns: 1fr 3fr;
- grid-template-areas:
-  "header header"
-  "nav nav"
-  "content content"
-  "footer footer";
- }
- nav ul {
-     display: flex;
-     justify-content: space-evenly;
- }
-}
-
-@media (min-width: 700px) {
-.wrapper {
- grid-template-columns: 1fr 4fr 1fr;
- grid-template-areas:
-  "header header header"
-  "nav nav nav"
-  "content content content"
-  "footer footer footer";
-
- }
- nav ul {
-     display: flex;
-     justify-content: space-evenly;
- }
-}
-
   a:visited {
-  color: blue;
+	color: blue;
+  }
+  body {
+	  font-family: sans-serif;
+	  background-color: #f2eecb;
+	  overflow: auto;
+	  line-height: 1.2;
+  }
+
+  li {
+	  list-style: none;
+	  line-height: 1.2;
   }
 
   #meditate {
-  display: flex;
-  margin: 0 auto;
-  transform: translateY(10%);
-  width: 200px;
-  height: auto;
-  padding: 1em;
+	  display: flex;
+	  margin: 0 auto;
+	  transform: translateY(10%);
+	  width: 200px;
+	  height: auto;
+	  padding: 1em;
 
-  -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu;
+	  -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu;
           animation: 4s ease-in-out .5s infinite alternate movegnu;
   }
 
   @-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
         @keyframes movegnu { from { transform: translateY(10%); } to { transform:translateY(-10%); }  }
 
-
-
   /* leaf animations */
 
   #leaves {
-        position:relative;
-        top:-100px;
-        width:100%;
-        text-align: center;
+	  position: relative;
+	  top: -12em;
+	  width: 100%;
+	  text-align: center;
   }
 
   #leaves i {
-    display: inline-block;
-    width: 200px;
-    height: 150px;
-    background: rgb(235,158,207);
-    transform: skew(25deg);
-    border-radius: 100% 0% 100% 0% / 100% 2% 98% 0%;
-    z-index: 1;
-    -webkit-animation: falling 6s 0s infinite;
+	  display: inline-block;
+	  width: 200px;
+	  height: 150px;
+	  background: rgb(235,158,207);
+	  transform: skew(25deg);
+	  border-radius: 100% 0% 100% 0% / 100% 2% 98% 0%;
+	  z-index: 1;
+	  -webkit-animation: falling 6s 0s infinite;
   }
 
   #leaves i:nth-of-type(2n) { -webkit-animation: falling2 5s 0s infinite; }
   #leaves i:nth-of-type(3n) { -webkit-animation: falling3 5s 0s infinite; }
 
   #leaves i:before {
-  position: absolute;
-  transform: rotate(49deg);
-  border-radius: 75% 25% 69% 31% / 100% 4% 96% 0%;
-  z-index: 0;
+	  position: absolute;
+	  transform: rotate(49deg);
+	  border-radius: 75% 25% 69% 31% / 100% 4% 96% 0%;
+	  z-index: 0;
   }
 
   #leaves i:after {
@@ -169,15 +108,15 @@
   #leaves i:nth-of-type(15n) { -webkit-animation-delay: 3s;  }
 
   #leaves i:nth-of-type(n)  { 
-        background: rgb(235,158,207);
+	  background: rgb(235,158,207);
   }
 
   #leaves i:nth-of-type(2n+2)  { 
-  background: rgb(235,158,207);
+	  background: rgb(235,158,207);
   }
 
   #leaves i:nth-of-type(4n+1)  {
-  background: rgb(235,158,207);
+	  background: rgb(235,158,207);
   }
 
   #leaves i:nth-of-type(n)    { opacity: .7;}
@@ -235,6 +174,19 @@
     }
   }
 
+  .nav {
+	  /*stub*/
+  }
+
+  .content {
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+	flex-basis: auto;
+	width: 50%;
+  }
+
+
 
   </style>
 </head>
@@ -246,9 +198,9 @@
     			<i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
   		</div>
   	<h1><code><span>∼</span>/rjpcasalino</code></h1>
-	<br>
+	  </div>
   	<div id="cherry"></div><img id="meditate" src=
-  	"static/meditate-papolivre-small.png" alt="GNU meditate">
+  	"imgs/meditate-papolivre-small.png" alt="GNU meditate">
 	  <hr>
 	  </div>
 	  <nav class="nav">
@@ -263,12 +215,14 @@
 		<a href="https://www.boringtranquility.io/cv/cv.pdf">resume/cv</a>
 	      </li>
 	      <li>
-		<a href="https://blog.boringtranquility.io/">boring blog</a>
+		<a href="https://blog.boringtranquility.io/">blog</a>
 	      </li>
 	    </ul>
 	  </nav>
 	  <div class="content">
-    		{{content|safe}} 
+		  [% FOREACH part IN body %]
+		  	[% part %]
+		  [% END %]
 		<hr>
 	  </div>
 
