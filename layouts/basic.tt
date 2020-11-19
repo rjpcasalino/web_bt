@@ -182,8 +182,7 @@
 	margin: 0 auto;
 	display: flex;
 	flex-flow: column;
-	flex-basis: auto;
-	width: 50%;
+	max-width: 800px;
   }
 
 

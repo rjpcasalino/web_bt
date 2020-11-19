@@ -4,9 +4,14 @@ layout: basic
 ---
 
 ### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="me">Ryan Casalino</a>.<span>&#128406;</span> 
-I'm more a rambler in the groves of academia than a serious student. I read comparatively little. I once harbored daydreams of becoming a college professor. This daydream would have had to have been the result of some technical mystical machine with the ability to send one back in time somewhere smack in the middle of the 19th century. Preferably nestled away in some college in the Northeast. Alas, 'tis but a dream. 
 
-Outside of daydreams I'd say I'm a largely self-disciplined programmer that takes pride in that fact. I've tinkered with computers joyously my entire life. I went to the [School of the Art Institute of Chicago (SAIC)](https://en.wikipedia.org/wiki/School_of_the_Art_Institute_of_Chicago) to obtain a BFA. In college I wrote HTML, painted, wrote poetry and verse, watched classic Hong Kong cinema, and generally had a wholesome time. After the stint in the Midwest I moved down to the American South, living in New Orleans and later Atlanta. I fixed computers and wrote code all along the way.
+> _To the future or to the past, to a time when thought is free, when men are different from one another and do not live alone<span>&mdash;</span>to a time when truth exists and what is done cannot be undone. From the age of uniformity, from the age of solitude, from the age of Big Brother, from the age of double think
+<br>
+> <span>&mdash;</span>greetings!_
+
+I'm more a rambler in the groves of academia than a serious student. I read comparatively little.
+
+I'm a largely self-disciplined programmer that takes pride in that fact. I've tinkered with computers joyously my entire life. I went to the [School of the Art Institute of Chicago (SAIC)](https://en.wikipedia.org/wiki/School_of_the_Art_Institute_of_Chicago) to obtain a BFA. In college I wrote HTML, painted, wrote poetry and verse, watched classic [Hong Kong cinema](https://en.wikipedia.org/wiki/A_Better_Tomorrow), and generally had a wholesome time. After the stint in the Midwest I moved down to the American South, living in New Orleans and later Atlanta. I fixed computers and wrote code all along the way.
 
 I enjoy quoting people I think may have a better way with words than I:
 
