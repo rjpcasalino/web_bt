@@ -45,11 +45,24 @@ Unix historical society mailing list member.
 .2C
 .KS
 .IP \[bu]
-.B "Software Contractor" 
+.B "Sinch" 
+.B "Bothell, WA"
+.br
+.I
+Software Programmer: Dec 2020 - Current
+.R
+.RS
+.KE
+.IP
+Work with Ruby, JavaScript, HTML and CSS mostly. Docker in heavy use. AWS tools in use include but are not limited to: S3, Route 53, ECS, EC2. Have worked on the Personalized Video Team as well as a Ruby written content management system.
+.RE
+.KS
+.IP \[bu]
+.B "Independent Programmer (i.e., Contractor)" 
 .B "Seattle, WA"
 .br
 .I
-Software Programmer: Nov 2019 - Current
+Software Programmer: Nov 2019 - Dec 2020
 .R
 .RS
 .KE

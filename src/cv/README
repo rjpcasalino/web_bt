@@ -1,0 +1,3 @@
+nix-shell -p texlive.combined.scheme-medium groff
+groff -ms cv.ms > cv.ps
+ps2pdf cv.ps cv.pdf
