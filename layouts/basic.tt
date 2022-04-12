@@ -184,9 +184,6 @@
 	flex-flow: column;
 	max-width: 800px;
   }
-
-
-
   </style>
 </head>
 <body>
@@ -225,14 +222,13 @@
 		<hr>
 	  </div>
 
-    <audio controls="" style=
-    "visibility:hidden;"><source src=
-    "https://upload.wikimedia.org/wikipedia/en/b/bf/Beatles_obladi.ogg"
-    type="audio/ogg" autoplay=""></audio>
+[% skills = "skills.tt" %]
+[% INCLUDE $skills %]
+
   <footer class="footer">
-	  <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
+  <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
 Find out more here: https://www.gnu.org/graphics/meditate.html
-	  </small>
+  </small>
   </footer>
   </div>
   <script>
@@ -260,12 +256,6 @@ Find out more here: https://www.gnu.org/graphics/meditate.html
         }
   }, 200));
 
-  el.ontimeupdate = debounce(function(e) {
-        let ct = Math.round(el.currentTime);
-        if (ct === 3) {
-                console.log('do stuff');
-        }
-  }, 250);
   </script>
 </body>
 </html>
