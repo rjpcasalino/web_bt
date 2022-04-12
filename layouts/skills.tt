@@ -1,0 +1,29 @@
+[% USE date %]
+[% USE Markdown %]
+[% MACRO since(t) PERL %]
+	use DateTime;
+	use DateTime::Duration;
+	my $start_year = $stash->get('t');
+
+	my $dt0 = DateTime->now;
+	my $dt1 = DateTime->new(year => $start_year);
+	my $dur = $dt0->subtract_datetime($dt1);
+	my $result = $dur->years;
+	print "$result years";
+[% END %]
+
+[% FILTER markdown %]
+
+## Skills <span>&#128187;</span>
+* [Perl](https://www.perl.org/) ~ [% since(2019) %]
+* [Python](https://www.python.org/) ~ [% since(2015) %]
+* [Ruby](https://www.ruby-lang.org/en/) ~ [% since(2015) %] 
+* [Go](https://golang.org/) ~ [% since(2017) %]
+* [SQL](https://en.wikipedia.org/wiki/SQL) ~ [% since(2017) %]
+* [HTML/CSS](https://developer.mozilla.org/en-US/) ~ [% since(2000) %]
+* [JavaScript](https://www.ecma-international.org/) ~ [% since(2016) %]
+* [React](https://reactjs.org/) ~  [% since(2019) %]
+* [Vue](https://vuejs.org/) ~ [% since(2017) %]
+* [GNU/Linux](https://www.gnu.org/) ~ [% since(2016) %]
+* [bash](https://www.gnu.org/software/bash/) / sh ~ [% since(2016) %]
+[% END %]
