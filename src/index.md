@@ -44,19 +44,6 @@ I read the [Wiki Way](http://wiki.org/wiki.cgi?WikiWay) recently and I wanted to
 	My dot files and some, perhaps useful, scripts. Includes miscellaneous trinkets:
 #### [dot files, scripts, etc](https://git.sr.ht/~rjpcasalino/Shangri-la)
 
-## Skills <span>&#128187;</span>
-* [Perl](https://www.python.org/) ~ 6 months
-* [Python](https://www.python.org/) ~ 5 years
-* [Ruby](https://www.ruby-lang.org/en/) ~ 4 years
-* [Go](https://golang.org/) ~ 5 years
-* [SQL](https://en.wikipedia.org/wiki/SQL) ~ 4 years
-* [HTML/CSS](https://developer.mozilla.org/en-US/) ~ 10 years
-* [JavaScript](https://www.ecma-international.org/) ~ 5 years
-* [React](https://reactjs.org/) ~ 2 years
-* [Vue](https://vuejs.org/) ~ 2 years
-* [GNU/Linux](https://www.gnu.org/) ~ 5 years
-* [bash](https://www.gnu.org/software/bash/) / sh ~ 4 years
-
 ### What's in my Toolbox? <span>&#129520;</span>
 - [vim](https://www.vim.org/)
 - [GNU/Linux](https://www.gnu.org/) - my daily drivers are [NixOS](https://nixos.org/), [Debian](https://www.debian.org/).
