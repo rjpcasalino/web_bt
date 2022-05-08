@@ -27,17 +27,18 @@
 	  display: flex;
 	  margin: 0 auto;
 	  /* transform: translateY(10%); */
-	  transform: rotate(180deg);
+	  transform: rotate(87deg);
+	  filter: brightness(0) saturate(100%);
 	  width: 200px;
 	  height: auto;
 	  padding: 1em;
 
-	  /* -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu; */
-          /* animation: 4s ease-in-out .5s infinite alternate movegnu; */
+	  -webkit-animation: 4s ease-in-out .5s infinite alternate ringbell;
+          animation: 4s ease-in-out .5s infinite alternate ringbell;
   }
 
-  @-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
-        @keyframes movegnu { from { transform: translateY(10%); } to { transform:translateY(-10%); }  }
+  @-webkit-keyframes ringbell { from { transform: rotate(87deg); } to { transform: rotate(-87deg); }  }
+        @keyframes ringbell { from { transform: rotate(87deg); } to { transform:rotate(-87deg); }  }
 
   /* leaf animations */
 
@@ -195,10 +196,13 @@
     			<i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
     			<i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
   		</div>
-  	<h1><code><span>∼</span>/rjpcasalino</code></h1>
+		<h1><code><span>∼</span>/rjpc</code></h1>
 	  </div>
 	<div id="cherry"></div>
-	<object id="meditate" data="imgs/Bell_System_hires_1969_logo_blue.svg" type="image/svg+xml"></object>
+	<svg id="meditate" width="200" height="200"
+		xmlns="http://www.w3.org/2000/svg">
+		<image href="imgs/Bell_System_hires_1969_logo_blue.svg" height="200" width="200"/>
+	</svg>
 	  <hr>
 	  </div>
 	  <nav class="nav">
@@ -209,11 +213,12 @@
 	      <li>
 		<a href="https://git.sr.ht/~rjpcasalino/">sourcehut</a>
 	      </li>
-	      <li>
-		<a href="https://www.boringtranquility.io/cv/cv.pdf">resume/cv</a>
-	      </li>
+	      <br>
 	      <li>
 		<a href="https://blog.boringtranquility.io/">blog</a>
+	      </li>
+	      <li>
+		<a href="https://www.boringtranquility.io/cv/cv.pdf">resume/cv</a>
 	      </li>
 	    </ul>
 	  </nav>
@@ -221,16 +226,10 @@
 		  [% FOREACH part IN body %]
 		  	[% part %]
 		  [% END %]
-			[% skills = "skills.tt" %]
-			[% INCLUDE $skills %]
+		[% skills = "skills.tt" %]
+		[% INCLUDE $skills %]
 		<hr>
 	  </div>
-
-  <footer class="footer">
-  <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
-Find out more here: https://www.gnu.org/graphics/meditate.html
-  </small>
-  </footer>
   </div>
   <script>
   // see here: https://davidwalsh.name/javascript-debounce-function
