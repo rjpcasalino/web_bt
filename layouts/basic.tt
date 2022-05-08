@@ -12,7 +12,8 @@
   }
   body {
 	  font-family: sans-serif;
-	  background-color: #f2eecb;
+	  #background-color: #f2eecb;
+	  background-color: #FFF;
 	  overflow: auto;
 	  line-height: 1.2;
   }
@@ -25,13 +26,14 @@
   #meditate {
 	  display: flex;
 	  margin: 0 auto;
-	  transform: translateY(10%);
+	  /* transform: translateY(10%); */
+	  transform: rotate(180deg);
 	  width: 200px;
 	  height: auto;
 	  padding: 1em;
 
-	  -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu;
-          animation: 4s ease-in-out .5s infinite alternate movegnu;
+	  /* -webkit-animation: 4s ease-in-out .5s infinite alternate movegnu; */
+          /* animation: 4s ease-in-out .5s infinite alternate movegnu; */
   }
 
   @-webkit-keyframes movegnu { from { transform: translateY(10%); } to { transform: translateY(-10%); }  }
@@ -195,8 +197,8 @@
   		</div>
   	<h1><code><span>∼</span>/rjpcasalino</code></h1>
 	  </div>
-  	<div id="cherry"></div><img id="meditate" src=
-  	"imgs/meditate-papolivre-small.png" alt="GNU meditate">
+	<div id="cherry"></div>
+	<object id="meditate" data="imgs/Bell_System_hires_1969_logo_blue.svg" type="image/svg+xml"></object>
 	  <hr>
 	  </div>
 	  <nav class="nav">
@@ -219,11 +221,10 @@
 		  [% FOREACH part IN body %]
 		  	[% part %]
 		  [% END %]
+			[% skills = "skills.tt" %]
+			[% INCLUDE $skills %]
 		<hr>
 	  </div>
-
-[% skills = "skills.tt" %]
-[% INCLUDE $skills %]
 
   <footer class="footer">
   <small>The Levitating, Meditating, Flute-playing Gnu. This is the work of Aurélio A. Heckert which itself is a modified version created by the Nevrax Design Team.
@@ -246,16 +247,7 @@ Find out more here: https://www.gnu.org/graphics/meditate.html
   timeout = setTimeout(later, wait);
   if (callNow) func.apply(context, args);
   };
-  };
-
-  const el = document.getElementById('penguin');
-  window.addEventListener('scroll', debounce(function(e) {
-        if (window.scrollY > el.offsetTop) {
-                var a = document.querySelector('audio');
-                a.play();
-        }
-  }, 200));
-
+ };
   </script>
 </body>
 </html>

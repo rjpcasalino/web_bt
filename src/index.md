@@ -3,7 +3,7 @@ title: Boring Tranquility
 layout: basic
 ---
 
-### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="me">Ryan Casalino</a>.<span>&#128406;</span> 
+### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="me">Ryan Casalino</a>.<span>&#129488;</span> 
 
 > _To the future or to the past, to a time when thought is free, when men are different from one another and do not live alone<span>&mdash;</span>to a time when truth exists and what is done cannot be undone. From the age of uniformity, from the age of solitude, from the age of Big Brother, from the age of double think
 <br>
