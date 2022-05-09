@@ -19,7 +19,7 @@ layout: basic
 
 > Let me explain this story about how blacks came from glory _<span>&#8230;</span>_
 
-> _I was Teddy Rooselevet once, T'Pac too. I've been poets, madman, endless creatures, so varied all.  I've been Frank Sinatra, you'd guess but what my ear fancies. I've slunk it out and been taken for a fool. Branshed guns in far off suns sharing deserts with C.W. Sughrue._
+> _I was Teddy Roosevelt once, T'Pac too. I've been poets, madman, endless creatures, so varied all.  I've been Frank Sinatra, you'd guess but what my ear fancies. I've slunk it out and been taken for a fool. Brandished guns in far off suns sharing deserts with C.W. Sughrue._
 
 > _I've sung ballads with Ernst R<span>&ouml;</span>hm, danced with Billy Joel at Shea, and confused myself on a day with Cameron Frye._
 
