@@ -21,11 +21,11 @@ The net is vast _<span>&#8230;</span>_
 
 > Let me explain this story about how blacks came from glory _<span>&#8230;</span>_
 
-> _I was Teddy Roosevelt once, T'Pac too. I've been poets, madman, endless creatures, so varied all.  I've been Frank Sinatra, you'd guess but what my ear fancies. I've slunk it out and been taken for a fool. Brandished guns in far off suns sharing deserts with C.W. Sughrue._
+> _I was Teddy Roosevelt once, T'Pac too. I've been poets, madman, endless creatures, so varied all.  I've been Frank Sinatra, you'd guess by what my ear fancies. I've slunk it out and been taken for a fool. Brandished guns in far off suns sharing deserts with C.W. Sughrue._
 
 > _I've sung ballads with Ernst R<span>&ouml;</span>hm, danced with Billy Joel @ Shea, and confused myself on a day with Cameron Frye._ 
 
-I am only a human. Cast away _oldthink_ and meet me @ the _joycamp_ and we'll we'll misunderstand together.
+I am only a human. Cast away _oldthink_ and meet me @ the _joycamp_ and we'll misunderstand together.
 
 <span style="margin: 50%;">&#167;</span>
 
