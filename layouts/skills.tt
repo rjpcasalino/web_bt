@@ -14,7 +14,7 @@
 
 [% FILTER markdown %]
 
-## Skills <span>&#128187;</span>
+#### Skills <span>&#128187;</span>
 * [Perl](https://www.perl.org/) ~ [% since(2019) %]
 * [Python](https://www.python.org/) ~ [% since(2015) %]
 * [Ruby](https://www.ruby-lang.org/en/) ~ [% since(2015) %] 

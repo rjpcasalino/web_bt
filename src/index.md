@@ -21,15 +21,17 @@ The net is vast _<span>&#8230;</span>_
 
 > Let me explain this story about how blacks came from glory _<span>&#8230;</span>_
 
-> _I was Teddy Roosevelt once, T'Pac too. I've been poets, madman, endless creatures, so varied all.  I've been Frank Sinatra, you'd guess by what my ear fancies. I've slunk it out and been taken for a fool. Brandished guns in far off suns sharing deserts with C.W. Sughrue._
+> _I was Teddy Roosevelt once, 2Pac too. I've been poets, madman, endless creatures, so varied all.  I've been Frank Sinatra, you'd guess by what my ear fancies. I've slunk it out and been taken for a fool. Brandished guns in far off suns sharing deserts with C.W. Sughrue._
 
 > _I've sung ballads with Ernst R<span>&ouml;</span>hm, danced with Billy Joel @ Shea, and confused myself on a day with Cameron Frye._ 
 
-I am only a human. Cast away _oldthink_ and meet me @ the _joycamp_ and we'll misunderstand together.
+I am only human. Cast away _oldthink_ and meet me @ the _joycamp_ and we'll misunderstand together.
+
+> Awaiting 2050 when Oldspeak will be all gone gone gone.
 
 <span style="margin: 50%;">&#167;</span>
 
-I went to the [School of the Art Institute of Chicago (SAIC)](https://en.wikipedia.org/wiki/School_of_the_Art_Institute_of_Chicago) to obtain a BFA. While there, I wrote HTML, painted, wrote poetry and verse, watched classic [Hong Kong cinema](https://en.wikipedia.org/wiki/A_Better_Tomorrow), and rode the [CTA](https://en.wikipedia.org/wiki/Chicago_Transit_Authority) at night and I recall kind token-takers willing to let a penniless white boy in from the cold. Winters can be worse there than some cities in Russia. Walls of ice hitting one's body. After my time in that most American of American cities (once a knock!), I moved down to the American South, living in New Orleans and later Atlanta. I fixed computers and wrote code all along the way.
+I went to the [School of the Art Institute of Chicago (SAIC)](https://en.wikipedia.org/wiki/School_of_the_Art_Institute_of_Chicago) to obtain a BFA. While there, I wrote HTML, painted, wrote poetry and verse, watched classic [Hong Kong cinema](https://en.wikipedia.org/wiki/A_Better_Tomorrow), and rode the [CTA](https://en.wikipedia.org/wiki/Chicago_Transit_Authority) at night and I recall kind token-takers willing to let a penniless white boy in from the cold. Winters can be worse there than some cities in Russia. Walls of ice hitting one's body. After my time in that most American of American cities I moved down to the American South, living in New Orleans and later Atlanta. I fixed computers and wrote code all along the way.
 
 > "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements." 
 >> <span>&mdash;</span>Brian Kernighan
@@ -48,10 +50,3 @@ I went to the [School of the Art Institute of Chicago (SAIC)](https://en.wikiped
 #### [bss](https://git.sr.ht/~rjpcasalino/bss)
 
 #### [dot files, scripts, etc](https://git.sr.ht/~rjpcasalino/Shangri-la)
-
-#### Tools I use and like <span>&#129520;</span>
-- [vim](https://www.vim.org/)
-- [GNU/Linux](https://www.gnu.org/) - [NixOS](https://nixos.org/), [Debian](https://www.debian.org/), [OpenBSD](https://openbsd.org)
-- [FreeBSD](https://www.freebsd.org/)
-- Numerous [Raspberry Pis](https://www.raspberrypi.org/)
-- I self-host this and other websites on those credit card sized servers using [nginx](https://nginx.org/) and [apache](https://www.apache.org/).
