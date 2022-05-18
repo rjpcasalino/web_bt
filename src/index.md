@@ -17,7 +17,8 @@ The net is vast _<span>&#8230;</span>_
 
 > God bless Newspeak and this controlled insanity. We owe it all to those wonderful Thought Police. I am boring you. <span>&#x1F927;</span> sorry, but might I interject?
 
-> I will see you all in Room 101. This feels like cliff notes. That's what they'll say, but hey, I'll see them down by the bay. Well, I just may. Remember, only give the warning <span>&#x262A; &#x1F54C;</span> That is all. Good things are coming.
+> I will see you all in Room 101. This feels like cliffsnotes. That's what they'll say, but hey, I'll see them down by the bay. Well, I just may. Remember, only give the warning <span>&#x262A; &#x1F54C;</span> That is all. Good things are coming.
+
 
 > Let me explain this story about how blacks came from glory _<span>&#8230;</span>_
 
