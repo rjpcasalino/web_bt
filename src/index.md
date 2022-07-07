@@ -32,8 +32,6 @@ I am only human. Cast away _oldthink_ and meet me @ the _joycamp_ and we'll misu
 
 <span style="margin: 50%;">&#167;</span>
 
-I went to the [School of the Art Institute of Chicago (SAIC)](https://en.wikipedia.org/wiki/School_of_the_Art_Institute_of_Chicago) to obtain a BFA. While there, I wrote HTML, painted, wrote poetry and verse, watched classic [Hong Kong cinema](https://en.wikipedia.org/wiki/A_Better_Tomorrow), and rode the [CTA](https://en.wikipedia.org/wiki/Chicago_Transit_Authority) at night and I recall kind token-takers willing to let a penniless white boy in from the cold. Winters can be worse there than some cities in Russia. Walls of ice hitting one's body. After my time in that most American of American cities I moved down to the American South, living in New Orleans and later Atlanta. I fixed computers and wrote code all along the way.
-
 > "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements." 
 >> <span>&mdash;</span>Brian Kernighan
 
