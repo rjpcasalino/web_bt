@@ -6,6 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>[% title %]</title>
+  <link href="/static/css/normalize.css" rel="stylesheet">
+  <link href="/static/css/skeleton.css" rel="stylesheet">
+  <link href="/static/css/index.css" rel="stylesheet">
   <style>
   a:visited {
 	color: blue;
@@ -36,6 +39,10 @@
 	  -webkit-animation: 4s ease-in-out .5s infinite alternate ringbell;
           animation: 4s ease-in-out .5s infinite alternate ringbell;
   }
+
+ #whomthebelltolls {
+          transform: scale(auto);
+ }
 
   @-webkit-keyframes ringbell { from { transform: rotate(87deg); } to { transform: rotate(-87deg); }  }
         @keyframes ringbell { from { transform: rotate(87deg); } to { transform:rotate(-87deg); }  }
@@ -190,7 +197,9 @@
   </style>
 </head>
 <body>
-  <div class="wrapper">
+<div class="container">
+  <div class="column">
+   <div class="wrapper">
 	  <div class="header">
   		<div id="leaves">
     			<i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i> <i></i>
@@ -199,10 +208,7 @@
 		<h1><code><span>∼</span>/rjpc</code></h1>
 	  </div>
 	<div id="cherry"></div>
-	<svg id="meditate" width="200" height="200"
-		xmlns="http://www.w3.org/2000/svg">
-		<image href="imgs/Bell_System_hires_1969_logo_blue.svg" height="200" width="200"/>
-	</svg>
+	<svg id="meditate" width="200" height="200" xmlns="http://www.w3.org/2000/svg"> <image id="whomthebelltolls" href="imgs/Bell_System_hires_1969_logo_blue.svg" height="200" width="200"/></svg>
 	  <hr>
 	  </div>
 	  <nav class="nav">
@@ -231,6 +237,8 @@
 		<hr>
 	  </div>
   </div>
+ </div>
+</div>
   <script>
   // see here: https://davidwalsh.name/javascript-debounce-function
   function debounce(func, wait, immediate) {
