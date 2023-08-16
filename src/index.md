@@ -1,5 +1,5 @@
 ---
-title: RJPC.NET
+title: rjpc.net
 layout: basic
 ---
 
