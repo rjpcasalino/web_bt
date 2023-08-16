@@ -1,24 +1,19 @@
 ---
-title: Boring Tranquility
+title: RJPC.NET
 layout: basic
 ---
 
-##### Hi, I'm <a href="mailto:ryan@boringtranquility.io" rel="me"> just another "Winston Smith" cruising the metaverse for lovers and friends</a> <span>&#x1F647;</span> 
+> ##### Hi, I'm <a href="mailto:ryan@rjpc.net" rel="me"> just another "Netizen Smith" cruising the metaverse for lovers and friends</a> <span>&#x1F647;</span> 
 
-[The net is vast](https://www.youtube.com/watch?v=SvC4chsgx0c) _<span>&#8230;</span>_
+And [the net is vast](https://www.youtube.com/watch?v=SvC4chsgx0c) _<span>&#8230;</span>_
 
 > _To the future or to the past, to a time when thought is free, when men are different from one another and do not live alone<span>&mdash;</span>to a time when truth exists and what is done cannot be undone. From the age of uniformity, from the age of solitude, from the age of Big Brother, from the age of doublethink
 <br>
 > <span>&mdash;</span>greetings!_
 
-_crimestop_, in short, is protective stupidity.
-
-Stupidity is never enough. We are required to know that black is white (_blackwhite_) and forget that one has ever believed the contrary. This demands a continuous alteration of the past, made possible by a system of thought called _doublethink_.
-
 God bless Newspeak and this controlled insanity. We owe it all to those wonderful Thought Police. I am boring you. <span>&#x1F927;</span> sorry, but might I interject?
 
 I will see you all in Room 101. This feels like cliffsnotes. That's what they'll say, but hey, I'll see them down by the bay. Well, I just may. Remember, only give the warning <span>&#x262A; &#x1F54C;</span> That is all. Good things are coming.
-
 
 Let me explain this story about how blacks came from glory _<span>&#8230;</span>_:
 
@@ -28,20 +23,22 @@ Let me explain this story about how blacks came from glory _<span>&#8230;</span>
 
 I am only human. Cast away _oldthink_ and meet me @ the _joycamp_ and we'll misunderstand together.
 
-Awaiting 2050 when Oldspeak will be all gone gone gone.
-
 <span style="margin: 50%;">&#167;</span>
 
-"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements." 
-<span>&mdash;</span>Brian Kernighan
+>"The most effective debugging tool is still careful thought, coupled with judiciously placed print statements."
 
-"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."
-<span>&mdash;</span>Fred Brooks
+<span>&mdash;</span>[Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)
 
-"People that quote other people are fools."
-<span>&mdash;</span>Vanderbilt graduate I worked with in New Orleans who was very affable and clearly very wise.
+>"The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."
 
-"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+<span>&mdash;</span>[Fred Brooks](https://en.wikipedia.org/wiki/Fred_Brooks)
+
+>"People that quote other people are fools."
+
+<span>&mdash;</span>[Vanderbilt graduate I worked with in New Orleans](https://en.wikipedia.org/wiki/Mephistopheles).
+
+>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+
 <span>&mdash;</span>Martin Fowler
 
 ##### Links
