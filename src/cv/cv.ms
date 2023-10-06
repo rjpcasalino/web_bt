@@ -1,155 +1,100 @@
+.ds CH
+.\" above means no page numbers
+.nr HM 0.2i
+.\" above means the page header margins
 .ce 4
 .ps 20
 .B "Ryan Casalino"
-.ps 10
-.I "Programmer/Software Engineer"
-.B1
-(917) 282-7506 | ryan@boringtranquility.io
-.\" the keycap '\(tr' == tilde
-https://github.com/rjpcasalino | https://git.sr.ht/\(tirjpcasalino/ | https://lobste.rs/u/rjpcasalino
-.B2
 .ps 12
+.I "Software Programmer"
+.sp
+.B1
+.sp
+(917) 282-7506 | ryan@rjpc.net
+.\" the keycap '\(tr' == tilde
+https://github.com/rjpcasalino | https://git.sr.ht/\(tirjpcasalino/
+.sp
+.B2
+.ps 14
 .SH
-Summary 
-.IP
-Self-taught programmer and skilled problem solver with proven ability.
-.LP
-.UL "Skills"
-.ps 10
-.IP -
-Proficient in a number of imperative, object-oriented,
-and functional programming languages: Go, Ruby, Python, JavaScript, Perl
-.IP -
-Familiar with C
-.IP -
-Acquainted with various libraries, frameworks, tools, and techniques:
-Ruby on Rails, Django, React, Vue, jQuery, NoSQL and relational databases (MySQL, PostgreSQL), and Redis.
-.IP -
-Working knowledge of numerous cloud providers:
-Amazon Web Services, Google Cloud, and Microsoft Azure.
-.IP -
-Operating systems:
-macOS, Linux, Unix (*BSD), Windows
-.IP -
-Extensive experience with all levels of the software stack,
-from low-level programming to front-end web development.
-.IP -
-Experienced with the various issues and pitfalls
-of maintaining legacy code and reducing technical debt.
-.IP -
-Passionate about following good principles of library/API design
-and clean code structure. A strong proponent of open source software.
-Unix historical society mailing list member. 
-.LP
-.UL "Career History"
+.ce 4
+WORK EXPERIENCE 
 .2C
-.KS
-.IP \[bu]
-.B "Sinch" 
+.ps 16
+.B "Ad Hoc"
+.ps
+.br
+Software Programmer: Feb 2022 - Current
+.br
+.B "Remote (Seattle, WA)"
+.sp
+Ad Hoc empowers organizations to deliver digital services that promote the general welfare.
+.sp
+.UL "DUTIES AND RESPONSIBILITIES:"
+.sp
+Worked as a member of a cross-functional team including designers, developers, business analysts to promote and deliver effective features for Medicare beneficiaries and plan providers. Contributed features and code fixes to medicare.gov's plan finder web application. Helped maintain the IaC (infrastructure-as-code) written in Terraform and Terragrunt. Helped to identify bugs and implement fixes. Wrote unit and integration tests. Educated others on use of Docker and other tools. Wrote a few Perl one liners. Worked with stakeholders at the Centers of Medicare and Medicaid to identify bottlenecks and data related issues.
+.sp
+.ps 16
+.B "Sinch"
+.ps
+.br
+Software Programmer: Dec 2020 - Feb 2022
 .B "Bothell, WA"
 .br
-.I
-Software Programmer: Dec 2020 - Current
-.R
-.RS
-.KE
-.IP
-Work with Ruby, JavaScript, HTML and CSS mostly. Docker in heavy use. AWS tools in use include but are not limited to: S3, Route 53, ECS, EC2. Have worked on the Personalized Video Team as well as a Ruby written content management system.
-.RE
-.KS
-.IP \[bu]
-.B "Independent Programmer (i.e., Contractor)" 
-.B "Seattle, WA"
-.br
-.I
-Software Programmer: Nov 2019 - Dec 2020
-.R
-.RS
-.KE
-.IP
-Have assisted small vendors with deployment and maintenance of web applications built with HTML, CSS, and JavaScript. Write "glue" for third party API integration and have worked with a plethora of data sets and formats (JSON, XML, binary). Script with a wide variety of scripting languages such as Perl, Bash, and Python. Work with Go and Ruby on back end. I have a good understanding of TCP/UDP and applications based on those protocols. I believe in the Unix philosophy that a program should do one thing and one thing well.
-.RE
-.KS
-.IP \[bu]
-.B "React Mobile" 
-.B "Seattle, WA"
-.br
-.I
-Software Engineer: Jan 2019 - Nov 2019
-.R
-.RS
-.IP -
-Provided bug fixes and new development for safety platform application.
-.KE
-.IP -
-Developed location search functionality for platform: JavaScript (Electron & jQuery) frontend,
-Ruby on Rails backend. Provided Operation Managers with admin portal written with Rails and React.
-.IP -
-Developed
-.I "Microsoft Outlook"
-email integration with the CMS platform using 
-.I OpenID 
-and 
-.I Azure
-.
-.IP -
-Primary developer supporting an external 
-.I "Ruby on Rails"
-application.
-.RE
-.KS
-.IP \[bu]
+.sp
+Sinch powers meaningful conversations at scale across messaging, voice, and email to help businesses deliver unified, personalized experiences.
+.sp
+.UL "DUTIES AND RESPONSIBILITIES:"
+.sp
+Worked with Ruby, JavaScript, HTML. Wrote IaC using AWS tools including but not limited to: S3, Route 53, ECS, EC2. Worked on the Personalized Video Team to provide personalized video text messages as well as an internal content management system.
+.sp
+.ps 16
 .B "GawkBox"
+.ps
+.br
+.ps 8
+Defunct startup
+.ps
+.br
+Software Programmer: Aug 2017 - Dec 2020
+.br
 .B "Seattle, WA"
-.br
-.I
-Software Engineer: Aug 2017 - Jan 2019
-.R
-.RS
-.IP -
-Shipped entire front end Single Page Application with 
-.I Vue
-and backend RESTful API written in Go.
-.KE
-.IP -
-Created docker containers for back end and front end applications and assisted in deployments using Kubernetes. 
-.IP -
-Wrote extensive documentation for both external and internal tools and applications. 
-.RE
-.KS
-.IP \[bu]
-.B "Merchant-e Solutions"
-.B "Atlanta, GA"
-.br
-.I
-Software Engineer: Jan 2017 - Aug 2017
-.R
-.RS
-.IP -
-Created Node based web API to interact with an Oracle back-end system that managed business transactions.
-.IP -
-Mentored and assisted developers writing an Angular front-end for internal data visualization web app.
-.KE
-.RE
-.KS
-.IP \[bu]
+.sp
+GawkBox sought to empower content creators to monetize their live streams on Twitch and various other streaming platforms.
+.sp
+.UL "DUTIES AND RESPONSIBILITIES:"
+.sp
+Rewrote an entire frontend and backend system using JavaScript and Golang. It was a bad idea.
+.sp
+.ps 16
 .B "Liaison Technologies"
-.B "Atlanta, GA"
+.ps
 .br
-.I
-Web Developer: Nov 2016 - Jan 2017
-.R
-.RS
-.IP -
-Aided in creation of data visualization web apps for HIPAA and PCI centered data 
-.IP -
-Worked with a team based in Finland in an Agile setting.
-.KE
-.RE
+.ps 8
+Acquired by OpenText
+.ps
+.br
+Software Programmer: Nov 2015 - Aug 2017
+.br
+.B "Atlanta, GA"
+.sp
+Liaison Technologies tailored approach allowed organizations to meet their toughest data challenges while building a robust data-centric foundation. From complex integration to data management to big data, Liaison provided more than 7,000 customers worldwide with the critical information needed to make better decisions, faster.
+.sp
+.UL "DUTIES AND RESPONSIBILITIES:"
+.sp
+Worked on the Alloy Platform with a team based in Finland and the United States to better understand design of overall system. Worked on implementation of said system's frontend components while helping to maintain and develop its backend system all of which was written in JavaScript. NodeJS was really hot at the time.
+.sp
+.UL "TECHNICAL SKILLS:"
+.sp
+Have worked on many a cross-functional team that used Slack, Amazon Web Services, Google Cloud, Docker, Golang, Python, JavaScript, Bash, Ruby, CSS, and semantic HTML. Love UNIX and Linux. Use macOS and Windows. Comfortable with most technology. Love Nix and NixOS.
+.sp
 .ps 10
 .UL Education
-.ps 10
-.IP \[bu]
+.sp
 .B "School of the Art Institute of Chicago"
-.I
+.br
 BFA: September 2006 - December 2011
+.sp
+.B "General Assembly"
+.br
+Code bootcamp May - August 2017
