@@ -31,8 +31,6 @@ Software Programmer: Feb 2022 - Current
 .sp
 .I "Ad Hoc empowers organizations to deliver digital services that promote the general welfare."
 .sp
-.UL "DUTIES AND RESPONSIBILITIES:"
-.sp
 Primarily worked on Medicare.gov Plan Finder web application delivering features for beneficiaries. Contributed code fixes while maintaining IaC written in Terraform. Wrote unit and integration tests using Go and maintained a gRPC Go API. Coordinated with stakeholders at the Centers for Medicare and Medicaid Services as well as other application developers to improve processes and implement features for drug and plan providers (insurance companies). Owned the ETL process concerning said plan and drug data. Wrote and maintained sphinx based documentation website.
 .sp
 .ps 15
@@ -45,8 +43,6 @@ Software Programmer: Dec 2020 - Feb 2022
 .br
 .sp
 .I "Sinch powers meaningful conversations at scale across messaging, voice, and email to help businesses deliver unified, personalized experiences."
-.sp
-.UL "DUTIES AND RESPONSIBILITIES:"
 .sp
 Primarily worked on Personalized Video Team to provide personalized Rich Communication Services (RCS) and Short Message Service (SMS) messages. Applications were written in Ruby and Bash.
 .sp
@@ -64,9 +60,7 @@ Software Programmer: Aug 2017 - Dec 2020
 .sp
 .I "GawkBox empowered content creators to monetize their live streams on Twitch and various other streaming platforms."
 .sp
-.UL "DUTIES AND RESPONSIBILITIES:"
-.sp
-Rewrote an entire front-end and backend system using JavaScript and Go. Implemented SSO feature and various other improvements while also providing bug fixes.
+Rewrote an entire front-end and backend system using JavaScript and Go. Implemented SSO feature and various other improvements while also providing bug fixes. Worked closely with founders to implement their vision of application.
 .sp
 .ps 15
 .B "Liaison Technologies"
@@ -81,8 +75,6 @@ Software Programmer: Nov 2015 - Aug 2017
 .B "Atlanta, GA"
 .sp
 .I "Liaison Technologies allowed organizations to meet their toughest data challenges while building a robust data-centric foundation."
-.sp
-.UL "DUTIES AND RESPONSIBILITIES:"
 .sp
 Primarily worked on Alloy Platform with a team based in Finland and United States. Implemented front-end components while maintaining and developing features for the backend both of which were written in JavaScript (NodeJS).
 .sp
@@ -101,9 +93,7 @@ macOS, Windows, Linux
 .IP \[bu]
 Docker, QEMU
 .IP \[bu]
-UNIX tools, IPv6
-.IP \[bu]
-Terraform
+UNIX tools, IPv6, Terraform
 .sp
 .ps 10
 .UL Education
