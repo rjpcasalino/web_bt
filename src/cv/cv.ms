@@ -1,3 +1,4 @@
+.fam H
 .ds CH
 .\" above means no page numbers
 .nr HM 0.2i
@@ -6,7 +7,7 @@
 .ps 20
 .B "Ryan Casalino"
 .ps 12
-.I "Self-taught Software Programmer"
+.I "Programmer"
 .sp
 .B1
 .sp
@@ -20,7 +21,7 @@ https://github.com/rjpcasalino | https://git.sr.ht/\(tirjpcasalino/ | rjpc.net
 .ce 4
 WORK EXPERIENCE 
 .2C
-.ps 16
+.ps 15
 .B "Ad Hoc"
 .ps
 .br
@@ -28,27 +29,28 @@ Software Programmer: Feb 2022 - Current
 .br
 .B "Remote (Seattle, WA)"
 .sp
-Ad Hoc empowers organizations to deliver digital services that promote the general welfare.
+.I "Ad Hoc empowers organizations to deliver digital services that promote the general welfare."
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Primarily worked on Medicare.gov Plan Finder web application delivering features for beneficiaries. Contributed code fixes while maintaining IaC (infrastructure-as-code) written in Terraform. Wrote unit and integration tests using Go and maintained a gRPC Go API. Coordinated with stakeholders at the Centers for Medicare and Medicaid Services as well as other application developers to improve processes and implement features for drug and plan providers (insurance companies). Owned the ETL process concerning said plan and drug data. Wrote and maintained sphinx based documentation website.
+Primarily worked on Medicare.gov Plan Finder web application delivering features for beneficiaries. Contributed code fixes while maintaining IaC written in Terraform. Wrote unit and integration tests using Go and maintained a gRPC Go API. Coordinated with stakeholders at the Centers for Medicare and Medicaid Services as well as other application developers to improve processes and implement features for drug and plan providers (insurance companies). Owned the ETL process concerning said plan and drug data. Wrote and maintained sphinx based documentation website.
 .sp
-.ps 16
+.ps 15
 .B "Sinch"
 .ps
 .br
 Software Programmer: Dec 2020 - Feb 2022
+.br
 .B "Bothell, WA"
 .br
 .sp
-Sinch powers meaningful conversations at scale across messaging, voice, and email to help businesses deliver unified, personalized experiences.
+.I "Sinch powers meaningful conversations at scale across messaging, voice, and email to help businesses deliver unified, personalized experiences."
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
 Primarily worked on Personalized Video Team to provide personalized Rich Communication Services (RCS) and Short Message Service (SMS) messages. Applications were written in Ruby and Bash.
 .sp
-.ps 16
+.ps 15
 .B "GawkBox"
 .ps
 .br
@@ -60,13 +62,13 @@ Software Programmer: Aug 2017 - Dec 2020
 .br
 .B "Seattle, WA"
 .sp
-GawkBox sought to empower content creators to monetize their live streams on Twitch and various other streaming platforms.
+.I "GawkBox empowered content creators to monetize their live streams on Twitch and various other streaming platforms."
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
 Rewrote an entire front-end and backend system using JavaScript and Go. Implemented SSO feature and various other improvements while also providing bug fixes.
 .sp
-.ps 16
+.ps 15
 .B "Liaison Technologies"
 .ps
 .br
@@ -78,7 +80,7 @@ Software Programmer: Nov 2015 - Aug 2017
 .br
 .B "Atlanta, GA"
 .sp
-Liaison Technologies allowed organizations to meet their toughest data challenges while building a robust data-centric foundation.
+.I "Liaison Technologies allowed organizations to meet their toughest data challenges while building a robust data-centric foundation."
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
