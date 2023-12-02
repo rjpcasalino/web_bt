@@ -6,13 +6,13 @@
 .ps 20
 .B "Ryan Casalino"
 .ps 12
-.I "Software Programmer"
+.I "Self-taught Software Programmer"
 .sp
 .B1
 .sp
 (917) 282-7506 | ryan@rjpc.net
 .\" the keycap '\(tr' == tilde
-https://github.com/rjpcasalino | https://git.sr.ht/\(tirjpcasalino/
+https://github.com/rjpcasalino | https://git.sr.ht/\(tirjpcasalino/ | rjpc.net
 .sp
 .B2
 .ps 14
@@ -32,7 +32,7 @@ Ad Hoc empowers organizations to deliver digital services that promote the gener
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Worked as a member of a cross-functional team including designers, developers, business analysts to promote and deliver effective features for Medicare beneficiaries and plan providers. Contributed features and code fixes to medicare.gov's plan finder web application. Helped maintain the IaC (infrastructure-as-code) written in Terraform and Terragrunt. Helped to identify bugs and implement fixes. Wrote unit and integration tests. Educated others on use of Docker and other tools. Wrote a few Perl one liners. Worked with stakeholders at the Centers of Medicare and Medicaid to identify bottlenecks and data related issues.
+Primarily worked on Medicare.gov Plan Finder web application delivering features for beneficiaries. Contributed code fixes while maintaining IaC (infrastructure-as-code) written in Terraform. Wrote unit and integration tests using Go and maintained a gRPC Go API. Coordinated with stakeholders at the Centers for Medicare and Medicaid Services as well as other application developers to improve processes and implement features for drug and plan providers (insurance companies). Owned the ETL process concerning said plan and drug data.
 .sp
 .ps 16
 .B "Sinch"
@@ -46,7 +46,7 @@ Sinch powers meaningful conversations at scale across messaging, voice, and emai
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Worked with Ruby, JavaScript, HTML. Wrote IaC using AWS tools including but not limited to: S3, Route 53, ECS, EC2. Worked on the Personalized Video Team to provide personalized video text messages as well as an internal content management system.
+Primarily worked on Personalized Video Team to provide personalized Rich Communication Services messages. Provided bug fixes for an internal content management system. These applications were written in Ruby and Bash.
 .sp
 .ps 16
 .B "GawkBox"
@@ -64,7 +64,7 @@ GawkBox sought to empower content creators to monetize their live streams on Twi
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Rewrote an entire frontend and backend system using JavaScript and Golang. It was a bad idea.
+Rewrote an entire frontend and backend system using JavaScript and Go. Implemented features and provided bug fixes.
 .sp
 .ps 16
 .B "Liaison Technologies"
@@ -78,15 +78,28 @@ Software Programmer: Nov 2015 - Aug 2017
 .br
 .B "Atlanta, GA"
 .sp
-Liaison Technologies tailored approach allowed organizations to meet their toughest data challenges while building a robust data-centric foundation. From complex integration to data management to big data, Liaison provided more than 7,000 customers worldwide with the critical information needed to make better decisions, faster.
+Liaison Technologies tailored approach allowed organizations to meet their toughest data challenges while building a robust data-centric foundation.
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Worked on the Alloy Platform with a team based in Finland and the United States to better understand design of overall system. Worked on implementation of said system's frontend components while helping to maintain and develop its backend system all of which was written in JavaScript. NodeJS was really hot at the time.
+Primarily worked on Alloy Platform with a team based in Finland and United States. Implemented of frontend components while maintaining and developing features for its backend all of which was written in JavaScript (NodeJS).
 .sp
 .UL "TECHNICAL SKILLS:"
 .sp
-Have worked on many a cross-functional team that used Slack, Amazon Web Services, Google Cloud, Docker, Golang, Python, JavaScript, Bash, Ruby, CSS, and semantic HTML. Love UNIX and Linux. Use macOS and Windows. Comfortable with most technology. Love Nix and NixOS.
+.IP \(bu 2
+Amazon Web Services, Google Cloud
+.IP \[bu]
+Go, Ruby, Perl, Python, JavaScript, NodeJS, Bash, HTML, CSS, SQL
+.IP \[bu]
+Postgres, MySQL, Redis
+.IP \[bu]
+gRPC, RESTful APIs; Protobufs, JSON, XML
+.IP \[bu]
+macOS, Windows, Linux
+.IP \[bu]
+Docker, QEMU
+.IP \[bu]
+UNIX tools, IPv6
 .sp
 .ps 10
 .UL Education

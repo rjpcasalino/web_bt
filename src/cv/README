@@ -1,3 +1,5 @@
 nix-shell -p ghostscript groff
+# flakes on?
+nix shell nixpkgs#ghostscript nixpkgs#groff
 groff -ms cv.ms > cv.ps; ps2pdf cv.ps cv.pdf
 firefox cv.pdf

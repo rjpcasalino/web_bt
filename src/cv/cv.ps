@@ -1,10 +1,10 @@
 %!PS-Adobe-3.0
-%%Creator: groff version 1.22.4
-%%CreationDate: Mon Dec 31 16:00:00 1979
+%%Creator: groff version 1.23.0
+%%CreationDate: Fri Dec  1 20:22:36 2023
 %%DocumentNeededResources: font Times-Bold
 %%+ font Times-Italic
 %%+ font Times-Roman
-%%DocumentSuppliedResources: procset grops 1.22 4
+%%DocumentSuppliedResources: procset grops 1.23 0
 %%Pages: 1
 %%PageOrder: Ascend
 %%DocumentMedia: Default 612 792 0 () ()
@@ -14,7 +14,7 @@
 %%PageMedia: Default
 %%EndDefaults
 %%BeginProlog
-%%BeginResource: procset grops 1.22 4
+%%BeginResource: procset grops 1.23 0
 %!PS-Adobe-3.0 Resource-ProcSet
 /setpacking where{
 pop
@@ -22,6 +22,7 @@ currentpacking
 true setpacking
 }if
 /grops 120 dict dup begin
+% The ASCII code of the space character.
 /SC 32 def
 /A/show load def
 /B{0 SC 3 -1 roll widthshow}bind def
@@ -43,16 +44,18 @@ true setpacking
 /R{moveto 0 SC 3 -1 roll widthshow}bind def
 /S{moveto 0 exch ashow}bind def
 /T{moveto 0 exch 0 SC 5 2 roll awidthshow}bind def
+% name size font SF -
 /SF{
 findfont exch
 [exch dup 0 exch 0 exch neg 0 0]makefont
 dup setfont
 [exch/setfont cvx]cvx bind def
 }bind def
+% name a c d font MF -
 /MF{
 findfont
 [5 2 roll
-0 3 1 roll
+0 3 1 roll % b
 neg 0 0]makefont
 dup setfont
 [exch/setfont cvx]cvx bind def
@@ -61,13 +64,19 @@ dup setfont
 /RES 0 def
 /PL 0 def
 /LS 0 def
+% Enable manual feed.
+% MANUAL -
 /MANUAL{
 statusdict begin/manualfeed true store end
 }bind def
+% Guess the page length.
+% This assumes that the imageable area is vertically centered on the page.
+% PLG - length
 /PLG{
 gsave newpath clippath pathbbox grestore
 exch pop add exch pop
 }bind def
+% BP -
 /BP{
 /level0 save def
 1 setlinecap
@@ -85,47 +94,61 @@ LS{
 level0 restore
 showpage
 }def
+% centerx centery radius startangle endangle DA -
 /DA{
 newpath arcn stroke
 }bind def
+% x y SN - x' y'
+% round a position to nearest (pixel + (.25,.25))
 /SN{
 transform
 .25 sub exch .25 sub exch
 round .25 add exch round .25 add exch
 itransform
 }bind def
+% endx endy startx starty DL -
+% we round the endpoints of the line, so that parallel horizontal
+% and vertical lines will appear even
 /DL{
 SN
 moveto
 SN
 lineto stroke
 }bind def
+% centerx centery radius DC -
 /DC{
 newpath 0 360 arc closepath
 }bind def
 /TM matrix def
+%  width height centerx centery DE -
 /DE{
 TM currentmatrix pop
 translate scale newpath 0 0 .5 0 360 arc closepath
 TM setmatrix
 }bind def
+% these are for splines
 /RC/rcurveto load def
 /RL/rlineto load def
 /ST/stroke load def
 /MT/moveto load def
 /CL/closepath load def
+% fill the last path
+% r g b Fr -
 /Fr{
 setrgbcolor fill
 }bind def
+% c m y k Fk -
 /setcmykcolor where{
 pop
 /Fk{
 setcmykcolor fill
 }bind def
 }if
+% g Fg -
 /Fg{
 setgray fill
 }bind def
+% fill with the "current color"
 /FL/fill load def
 /LW/setlinewidth load def
 /Cr/setrgbcolor load def
@@ -134,6 +157,7 @@ pop
 /Ck/setcmykcolor load def
 }if
 /Cg/setgray load def
+% new_font_name encoding_vector old_font_name RE -
 /RE{
 findfont
 dup maxlength 1 index/FontName known not{1 add}if dict begin
@@ -148,6 +172,7 @@ dup/FontName exch def
 currentdict end definefont pop
 }bind def
 /DEFS 0 def
+% hpos vpos EBEGIN -
 /EBEGIN{
 moveto
 DEFS begin
@@ -155,11 +180,13 @@ DEFS begin
 /EEND/end load def
 /CNT 0 def
 /level1 0 def
+% llx lly newwid wid newht ht newllx newlly PBEGIN -
 /PBEGIN{
 /level1 save def
 translate
 div 3 1 roll div exch scale
 neg exch neg exch translate
+% set the graphics state to default values
 0 setgray
 0 setlinecap
 1 setlinewidth
@@ -178,6 +205,10 @@ newpath
 /CNT countdictstack def
 userdict begin
 /showpage{}def
+%
+%  Any included setpagedevice should be ignored.
+%  See: http://www.w-beer.de/doc/ps/.
+%
 /setpagedevice{}def
 mark
 }bind def
@@ -235,101 +266,87 @@ def/PL 792 def/LS false def/ENC0[/asciicircum/asciitilde/Scaron/Zcaron
 %%BeginPageSetup
 BP
 %%EndPageSetup
-/F0 20/Times-Bold@0 SF(Ryan Casalino)225.49 26.4 Q/F1 12/Times-Italic@0
-SF(Softwar)234.81 38.4 Q 3(eP)-.444 G -2.04 -.54(ro g)-3 H -.18(ra).54 G
-(mmer).18 E/F2 12/Times-Roman@0 SF(\(917\) 282-7506 | ryan@rjpc.net)
-211.956 74.4 Q(https://github)144.612 86.4 Q
-(.com/rjpcasalino | https://git.sr)-.48 E(.ht/\001rjpcasalino/)-.66 E
-.48 LW 504 101.4 72 101.4 DL 504 53.4 504 101.4 DL 72 53.4 504 53.4 DL
-72 101.4 72 53.4 DL/F3 10/Times-Bold@0 SF -.1(WO)237.63 134.4 S
-(RK EXPERIENCE).1 E/F4 16/Times-Bold@0 SF(Ad Hoc)72 158.4 Q/F5 10
-/Times-Roman@0 SF(Softw)72 170.4 Q(are Programmer: Feb 2022 - Current)
--.1 E F3(Remote \(Seattle, W)72 182.4 Q(A\))-1.2 E F5 .419(Ad Hoc empo)
-72 206.4 R .418(wers or)-.25 F -.05(ga)-.18 G .418(nizations to deli).05
-F -.15(ve)-.25 G 2.918(rd).15 G(igital)-2.918 E
-(services that promote the general welf)72 218.4 Q(are.)-.1 E
-(DUTIES AND RESPONSIBILITIES:)72 242.4 Q .4 LW 224.77 244.9 72 244.9 DL
--.8(Wo)72 266.4 S(rk).8 E 1.516
-(ed as a member of a cross-functional team)-.1 F .555
-(including designers, de)72 278.4 R -.15(ve)-.25 G .555(lopers, b).15 F
-.555(usiness analysts)-.2 F 4.34(to promote and deli)72 290.4 R -.15(ve)
--.25 G 6.84(re).15 G -.25(ff)-6.84 G(ecti).25 E 4.64 -.15(ve f)-.25 H
-4.34(eatures for).15 F 1.804(Medicare bene\214ciaries and plan pro)72
-302.4 R 1.804(viders. Con-)-.15 F(trib)72 314.4 Q .588
-(uted features and code \214x)-.2 F .589(es to medicare.go)-.15 F(v')
--.15 E(s)-.55 E 1.058
-(plan \214nder web application. Helped maintain the)72 326.4 R 1.565
-(IaC \(infrastructure-as-code\) written in T)72 338.4 R(erraform)-.7 E
-1.473(and T)72 350.4 R 1.473(erragrunt. Helped to identify b)-.7 F 1.473
-(ugs and im-)-.2 F 2.448(plement \214x)72 362.4 R 2.448
-(es. Wrote unit and inte)-.15 F 2.449(gration tests.)-.15 F .253
-(Educated others on use of Dock)72 374.4 R .252(er and other tools.)-.1
-F 1.161(Wrote a fe)72 386.4 R 3.661(wP)-.25 G 1.161(erl one liners. W)
--3.661 F(ork)-.8 E 1.162(ed with stak)-.1 F(e-)-.1 E .91
-(holders at the Centers of Medicare and Medicaid)72 398.4 R
-(to identify bottlenecks and data related issues.)72 410.4 Q F4(Sinch)72
-434.4 Q F5(Softw)72 446.4 Q 3.9(are Programmer: Dec 2020 - Feb 2022)-.1
-F F3(Bothell, W)72 458.4 Q(A)-1.2 E F5 2.098(Sinch po)72 482.4 R 2.098
-(wers meaningful con)-.25 F -.15(ve)-.4 G 2.098(rsations at scale).15 F
-1.281(across messaging, v)72 494.4 R 1.282(oice, and email to help b)-.2
-F(usi-)-.2 E(nesses deli)72 506.4 Q -.15(ve)-.25 G 2.5(ru).15 G
-(ni\214ed, personalized e)-2.5 E(xperiences.)-.15 E
-(DUTIES AND RESPONSIBILITIES:)72 530.4 Q 224.77 532.9 72 532.9 DL -.8
-(Wo)72 554.4 S(rk).8 E .004(ed with Ruby)-.1 F 2.503(,J)-.65 G -.2(av)
--2.503 G .003(aScript, HTML. Wrote IaC)-.05 F .507(using A)72 566.4 R
-.507(WS tools including b)-.9 F .508(ut not limited to: S3,)-.2 F .28
-(Route 53, ECS, EC2. W)72 578.4 R(ork)-.8 E .28(ed on the Personalized)
--.1 F -.6(Vi)72 590.4 S 2.483(deo T).6 F 2.483(eam to pro)-.7 F 2.484
-(vide personalized video te)-.15 F(xt)-.15 E 1.227
-(messages as well as an internal content manage-)72 602.4 R
-(ment system.)72 614.4 Q F4(GawkBox)72 638.4 Q/F6 8/Times-Roman@0 SF
-(Defunct startup)72 650.4 Q F5(Softw)72 662.4 Q
-(are Programmer: Aug 2017 - Dec 2020)-.1 E F3(Seattle, W)72 674.4 Q(A)
--1.2 E F5(Ga)72 698.4 Q .986(wkBox sought to empo)-.15 F .987
-(wer content creators to)-.25 F .4(monetize their li)72 710.4 R .7 -.15
-(ve s)-.25 H .4(treams on T).15 F .4(witch and v)-.8 F(arious)-.25 E
-(other streaming platforms.)72 722.4 Q(DUTIES AND RESPONSIBILITIES:)
-302.4 158.4 Q 455.17 160.9 302.4 160.9 DL(Re)302.4 182.4 Q 1.907
-(wrote an entire frontend and back)-.25 F 1.907(end system)-.1 F
-(using Ja)302.4 194.4 Q -.25(va)-.2 G(Script and Golang. It w).25 E
-(as a bad idea.)-.1 E F4(Liaison T)302.4 218.4 Q(echnologies)-1.472 E F6
-(Acquired by OpenT)302.4 230.4 Q -.12(ex)-.56 G(t).12 E F5(Softw)302.4
-242.4 Q(are Programmer: No)-.1 E 2.5(v2)-.15 G(015 - Aug 2017)-2.5 E F3
-(Atlanta, GA)302.4 254.4 Q F5 2.453(Liaison T)302.4 278.4 R 2.452
-(echnologies tailored approach allo)-.7 F(wed)-.25 E(or)302.4 290.4 Q
--.05(ga)-.18 G 2.81(nizations to meet their toughest data chal-).05 F
-1.265(lenges while b)302.4 302.4 R 1.265(uilding a rob)-.2 F 1.265
-(ust data-centric foun-)-.2 F .181(dation. From comple)302.4 314.4 R
-2.682(xi)-.15 G(nte)-2.682 E .182(gration to data manage-)-.15 F 3.03
-(ment to big data, Liaison pro)302.4 326.4 R 3.03(vided more than)-.15 F
-.09(7,000 customers w)302.4 338.4 R .09
-(orldwide with the critical infor)-.1 F(-)-.2 E(mation needed to mak)
-302.4 350.4 Q 2.5(eb)-.1 G(etter decisions, f)-2.5 E(aster)-.1 E(.)-.55
-E(DUTIES AND RESPONSIBILITIES:)302.4 374.4 Q 455.17 376.9 302.4 376.9 DL
--.8(Wo)302.4 398.4 S(rk).8 E .745(ed on the Allo)-.1 F 3.245(yP)-.1 G
-.745(latform with a team based)-3.245 F 1.13
-(in Finland and the United States to better under)302.4 410.4 R(-)-.2 E
-.483(stand design of o)302.4 422.4 R -.15(ve)-.15 G .483(rall system. W)
-.15 F(ork)-.8 E .483(ed on imple-)-.1 F 1.6(mentation of said system')
-302.4 434.4 R 4.1(sf)-.55 G 1.6(rontend components)-4.1 F .104
-(while helping to maintain and de)302.4 446.4 R -.15(ve)-.25 G .104
-(lop its back).15 F(end)-.1 E 2.611(system all of which w)302.4 458.4 R
-2.612(as written in Ja)-.1 F -.25(va)-.2 G(Script.).25 E(NodeJS w)302.4
-470.4 Q(as really hot at the time.)-.1 E(TECHNICAL SKILLS:)302.4 494.4 Q
-398.23 496.9 302.4 496.9 DL(Ha)302.4 518.4 Q 2.914 -.15(ve w)-.2 H(ork)
-.05 E 2.614(ed on man)-.1 F 5.113(yac)-.15 G 2.613(ross-functional team)
--5.113 F 1.795(that used Slack, Amazon W)302.4 530.4 R 1.795
-(eb Services, Google)-.8 F .346(Cloud, Dock)302.4 542.4 R(er)-.1 E 2.846
-(,G)-.4 G .346(olang, Python, Ja)-2.846 F -.25(va)-.2 G .346
-(Script, Bash,).25 F(Ruby)302.4 554.4 Q 5.288(,C)-.65 G 2.788
-(SS, and semantic HTML. Lo)-5.288 F 3.089 -.15(ve U)-.15 H(NIX).15 E
-1.49(and Linux. Use macOS and W)302.4 566.4 R(indo)-.4 E 1.49
-(ws. Comfort-)-.25 F(able with most technology)302.4 578.4 Q 2.5(.L)-.65
-G .3 -.15(ove N)-2.5 H(ix and NixOS.).15 E(Education)302.4 602.4 Q
-342.95 604.9 302.4 604.9 DL F3(School of the Art Institute of Chicago)
-302.4 626.4 Q F5(BF)302.4 638.4 Q(A: September 2006 - December 2011)-.74
-E F3(General Assembly)302.4 662.4 Q F5(Code bootcamp May - August 2017)
-302.4 674.4 Q 0 Cg EP
+/F0 20/Times-Bold@0 SF(Ryan Casalino)243.49 26.4 Q/F1 12/Times-Italic@0
+SF(Self-taught Softwar)224.736 38.4 Q 3(eP)-.444 G -2.04 -.54(ro g)-3 H
+-.18(ra).54 G(mmer).18 E/F2 12/Times-Roman@0 SF
+(\(917\) 282-7506 | ryan@rjpc.net)229.956 74.4 Q(https://github)140.25
+86.4 Q(.com/rjpcasalino | https://git.sr)-.48 E
+(.ht/\001rjpcasalino/ | rjpc.net)-.66 E .48 LW 540 101.4 72 101.4 DL 540
+53.4 540 101.4 DL 72 53.4 540 53.4 DL 72 101.4 72 53.4 DL/F3 10
+/Times-Bold@0 SF -.1(WO)255.63 134.4 S(RK EXPERIENCE).1 E/F4 16
+/Times-Bold@0 SF(Ad Hoc)72 158.4 Q/F5 10/Times-Roman@0 SF(Softw)72 170.4
+Q(are Programmer: Feb 2022 - Current)-.1 E F3(Remote \(Seattle, W)72
+182.4 Q(A\))-1.2 E F5 1.803(Ad Hoc empo)72 206.4 R 1.803(wers or)-.25 F
+-.05(ga)-.18 G 1.803(nizations to deli).05 F -.15(ve)-.25 G 4.303(rd).15
+G 1.802(igital ser)-4.303 F(-)-.2 E(vices that promote the general welf)
+72 218.4 Q(are.)-.1 E(DUTIES AND RESPONSIBILITIES:)72 242.4 Q .4 LW
+224.77 244.9 72 244.9 DL .785(Primarily w)72 266.4 R(ork)-.1 E .785
+(ed on Medicare.go)-.1 F 3.286(vP)-.15 G .786(lan Finder web ap-)-3.286
+F 5(plication deli)72 278.4 R -.15(ve)-.25 G 5
+(ring features for bene\214ciaries. Con-).15 F(trib)72 290.4 Q .083
+(uted code \214x)-.2 F .083(es while maintaining IaC \(infrastructure-)
+-.15 F .066(as-code\) written in T)72 302.4 R .066
+(erraform. Wrote unit and inte)-.7 F(gration)-.15 E .63
+(tests using Go and maintained a gRPC Go API. Coordi-)72 314.4 R .728
+(nated with stak)72 326.4 R .727
+(eholders at the Centers for Medicare and)-.1 F .913
+(Medicaid Services as well as other application de)72 338.4 R -.15(ve)
+-.25 G(lop-).15 E 2.883(ers to impro)72 350.4 R 3.183 -.15(ve p)-.15 H
+2.883(rocesses and implement features for).15 F 1.21(drug and plan pro)
+72 362.4 R 1.21(viders \(insurance companies\). Owned)-.15 F
+(the ETL process concerning said plan and drug data.)72 374.4 Q F4
+(Sinch)72 398.4 Q F5(Softw)72 410.4 Q 2.177
+(are Programmer: Dec 2020 - Feb 2022)-.1 F F3(Bothell,)4.677 E -1.2(WA)
+72 422.4 S F5 1.733(Sinch po)72 446.4 R 1.733(wers meaningful con)-.25 F
+-.15(ve)-.4 G 1.734(rsations at scale across).15 F 1.682(messaging, v)72
+458.4 R 1.681(oice, and email to help b)-.2 F 1.681(usinesses deli)-.2 F
+-.15(ve)-.25 G(r).15 E(uni\214ed, personalized e)72 470.4 Q(xperiences.)
+-.15 E(DUTIES AND RESPONSIBILITIES:)72 494.4 Q 224.77 496.9 72 496.9 DL
+1.782(Primarily w)72 518.4 R(ork)-.1 E 1.783(ed on Personalized V)-.1 F
+1.783(ideo T)-.6 F 1.783(eam to pro-)-.7 F 2.416
+(vide personalized Rich Communication Services mes-)72 530.4 R 1.712
+(sages. Pro)72 542.4 R 1.712(vided b)-.15 F 1.712(ug \214x)-.2 F 1.713
+(es for an internal content man-)-.15 F 3.682
+(agement system. These applications were written in)72 554.4 R
+(Ruby and Bash.)72 566.4 Q F4(GawkBox)72 590.4 Q/F6 8/Times-Roman@0 SF
+(Defunct startup)72 602.4 Q F5(Softw)72 614.4 Q
+(are Programmer: Aug 2017 - Dec 2020)-.1 E F3(Seattle, W)72 626.4 Q(A)
+-1.2 E F5(Ga)72 650.4 Q .753(wkBox sought to empo)-.15 F .753
+(wer content creators to mone-)-.25 F 3.672(tize their li)72 662.4 R
+3.971 -.15(ve s)-.25 H 3.671(treams on T).15 F 3.671(witch and v)-.8 F
+3.671(arious other)-.25 F(streaming platforms.)72 674.4 Q
+(DUTIES AND RESPONSIBILITIES:)72 698.4 Q 224.77 700.9 72 700.9 DL(Re)72
+722.4 Q 2.096(wrote an entire frontend and back)-.25 F 2.096
+(end system using)-.1 F(Ja)311 158.4 Q -.25(va)-.2 G 1.562
+(Script and Go. Implemented features and pro).25 F(vided)-.15 E -.2(bu)
+311 170.4 S 2.5<678c>.2 G -.15(xe)-2.5 G(s.).15 E F4(Liaison T)311 194.4
+Q(echnologies)-1.472 E F6(Acquired by OpenT)311 206.4 Q -.12(ex)-.56 G
+(t).12 E F5(Softw)311 218.4 Q(are Programmer: No)-.1 E 2.5(v2)-.15 G
+(015 - Aug 2017)-2.5 E F3(Atlanta, GA)311 230.4 Q F5 1.212(Liaison T)311
+254.4 R 1.212(echnologies tailored approach allo)-.7 F 1.212(wed or)-.25
+F -.05(ga)-.18 G(ni-).05 E 3.234
+(zations to meet their toughest data challenges while)311 266.4 R -.2
+(bu)311 278.4 S(ilding a rob).2 E(ust data-centric foundation.)-.2 E
+(DUTIES AND RESPONSIBILITIES:)311 302.4 Q 463.77 304.9 311 304.9 DL
+1.165(Primarily w)311 326.4 R(ork)-.1 E 1.165(ed on Allo)-.1 F 3.665(yP)
+-.1 G 1.165(latform with a team based)-3.665 F 1.447
+(in Finland and United States. Implemented of frontend)311 338.4 R 1.608
+(components while maintaining and de)311 350.4 R -.15(ve)-.25 G 1.608
+(loping features).15 F 1.848(for its back)311 362.4 R 1.848
+(end all of which w)-.1 F 1.847(as written in Ja)-.1 F -.25(va)-.2 G
+(Script).25 E(\(NodeJS\).)311 374.4 Q(TECHNICAL SKILLS:)311 398.4 Q
+406.83 400.9 311 400.9 DL 6.5<8341>311 426 S(mazon W)-6.5 E
+(eb Services, Google Cloud)-.8 E 6.5<8347>311 441.6 S 2.748(o, Ruby)-6.5
+F 5.248(,P)-.65 G 2.748(erl, Python, Ja)-5.248 F -.25(va)-.2 G 2.749
+(Script, NodeJS, Bash,).25 F(HTML, CSS, SQL)321 453.6 Q 6.5<8350>311
+469.2 S(ostgres, MySQL, Redis)-6.5 E 6.5<8367>311 484.8 S
+(RPC, RESTful APIs; Protob)-6.5 E(ufs, JSON, XML)-.2 E 6.5<836d>311
+500.4 S(acOS, W)-6.5 E(indo)-.4 E(ws, Linux)-.25 E 6.5<8344>311 516 S
+(ock)-6.5 E(er)-.1 E 2.5(,Q)-.4 G(EMU)-2.5 E 6.5<8355>311 531.6 S
+(NIX tools, IPv6)-6.5 E(Education)321 555.6 Q 361.55 558.1 321 558.1 DL
+F3(School of the Art Institute of Chicago)321 579.6 Q F5(BF)321 591.6 Q
+(A: September 2006 - December 2011)-.74 E F3(General Assembly)321 615.6
+Q F5(Code bootcamp May - August 2017)321 627.6 Q 0 Cg EP
 %%Trailer
 end
 %%EOF
