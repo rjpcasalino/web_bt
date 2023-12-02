@@ -110,4 +110,4 @@ BFA: September 2006 - December 2011
 .sp
 .B "General Assembly"
 .br
-Code bootcamp May - August 2017
+Code bootcamp May - August 2015
