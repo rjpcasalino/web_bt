@@ -32,7 +32,7 @@ Ad Hoc empowers organizations to deliver digital services that promote the gener
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Primarily worked on Medicare.gov Plan Finder web application delivering features for beneficiaries. Contributed code fixes while maintaining IaC (infrastructure-as-code) written in Terraform. Wrote unit and integration tests using Go and maintained a gRPC Go API. Coordinated with stakeholders at the Centers for Medicare and Medicaid Services as well as other application developers to improve processes and implement features for drug and plan providers (insurance companies). Owned the ETL process concerning said plan and drug data.
+Primarily worked on Medicare.gov Plan Finder web application delivering features for beneficiaries. Contributed code fixes while maintaining IaC (infrastructure-as-code) written in Terraform. Wrote unit and integration tests using Go and maintained a gRPC Go API. Coordinated with stakeholders at the Centers for Medicare and Medicaid Services as well as other application developers to improve processes and implement features for drug and plan providers (insurance companies). Owned the ETL process concerning said plan and drug data. Wrote and maintained sphinx based documentation website.
 .sp
 .ps 16
 .B "Sinch"
@@ -46,7 +46,7 @@ Sinch powers meaningful conversations at scale across messaging, voice, and emai
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Primarily worked on Personalized Video Team to provide personalized Rich Communication Services messages. Provided bug fixes for an internal content management system. These applications were written in Ruby and Bash.
+Primarily worked on Personalized Video Team to provide personalized Rich Communication Services (RCS) and Short Message Service (SMS) messages. Applications were written in Ruby and Bash.
 .sp
 .ps 16
 .B "GawkBox"
@@ -64,7 +64,7 @@ GawkBox sought to empower content creators to monetize their live streams on Twi
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Rewrote an entire frontend and backend system using JavaScript and Go. Implemented features and provided bug fixes.
+Rewrote an entire front-end and backend system using JavaScript and Go. Implemented SSO feature and various other improvements while also providing bug fixes.
 .sp
 .ps 16
 .B "Liaison Technologies"
@@ -78,11 +78,11 @@ Software Programmer: Nov 2015 - Aug 2017
 .br
 .B "Atlanta, GA"
 .sp
-Liaison Technologies tailored approach allowed organizations to meet their toughest data challenges while building a robust data-centric foundation.
+Liaison Technologies allowed organizations to meet their toughest data challenges while building a robust data-centric foundation.
 .sp
 .UL "DUTIES AND RESPONSIBILITIES:"
 .sp
-Primarily worked on Alloy Platform with a team based in Finland and United States. Implemented of frontend components while maintaining and developing features for its backend all of which was written in JavaScript (NodeJS).
+Primarily worked on Alloy Platform with a team based in Finland and United States. Implemented front-end components while maintaining and developing features for the backend both of which were written in JavaScript (NodeJS).
 .sp
 .UL "TECHNICAL SKILLS:"
 .sp
@@ -100,6 +100,8 @@ macOS, Windows, Linux
 Docker, QEMU
 .IP \[bu]
 UNIX tools, IPv6
+.IP \[bu]
+Terraform
 .sp
 .ps 10
 .UL Education
